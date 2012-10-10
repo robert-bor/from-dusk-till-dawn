@@ -222,6 +222,7 @@
                     <img src="images/landing-page/looking-for-batteries.png" title="Search items" alt="Together with other citizens you build up a database of items you have found. The item search helps you to find what you need, so you can send out someone to fetch the item."/>
                     <img src="images/landing-page/various.png" title="Town information" alt="The zombie horde attacks every night! The town needs to prepare for this nightly horror and still deal with other facts of life as well -- such as a worsening water crisis!"/>
                     <img src="images/landing-page/options.png" title="Options" alt="Players have their own preferences of what they like to see in their map tool. In the options tab, a player can finetune their view the way they want it to be. The settings are maintained in browser cookies."/>
+                    <img src="images/landing-page/exploring-ruins.png" title="Ruins" alt="Ruins can be mapped out using the Ruin Explorer. With the arrow keys and by adding rooms and corridors, one can keep track of what has been explored, where the bad guys are and what rooms are locked or unlocked."/>
                 </div>
 
                 <h2>Creator</h2>
