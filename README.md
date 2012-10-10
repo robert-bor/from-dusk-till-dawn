@@ -4,4 +4,4 @@ External application for the game Die2Nite? (http://www.die2nite.com), to be use
 
 Runs under http://d2n.duskdawn.net
 
-![Visitors to site](/docs/duskdawn-visitors.png "From Dusk Till Dawn visitors")
+![Visitors to site](https://raw.github.com/robert-bor/from-dusk-till-dawn/master/docs/duskdawn-visitors.png "From Dusk Till Dawn visitors")
