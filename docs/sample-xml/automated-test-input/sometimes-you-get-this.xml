@@ -1,0 +1,29 @@
+<fill id="gamebody">
+<![CDATA[
+<div id="gameBodyLight">
+<div id="loading_section">
+<img src="http://data.die2nite.com/gfx/design/loading.gif" alt="[icon]"/>
+<img src="http://data.die2nite.com/gfx/loc/en/loadingLabel.gif" alt="Loading..."/>
+</div>
+<h1>Error encountered</h1>
+<div class="critical">
+<p><strong>An error has been encountered. Don't worry!</strong></p>
+<p>Please send the following message <a href="/support" target="_blank">technical support</a> and add more details if the error message itself is not sufficiently explicit.</p>
+<p><strong>Error : </strong>
+<pre>INSERT INTO Session (ctime,sid) VALUES ('2011-10-04 23:01:14', 'LYH9Td3zrukB13zN46XF1vJcEnwCx8cg') Deadlock found when trying to get lock; try restarting transaction</pre></p>
+</div>
+<a class="supportMT" href="/support" target="_blank"><em>Need help ?</em>Consult the Die2Nite technical support site.</a>
+<h2><strong>General</strong> advice:</h2>
+<ul>
+<li><strong>Empty your browser's cache</strong></li>
+<li><strong>Refresh the page (CTRL + R or F5 depending on the browser)</strong></li>
+<li><strong>Delete your old bookmarks</strong></li>
+<li>Ensure you are <strong>using</strong> either <strong>Firefox 3.x</strong> or <strong>Internet Explorer 7.x</strong></li>
+<li><strong>Google Chrome, Safari, Opéra, IE 5.x, IE 6.x</strong> and all other browsers <strong>are not officially supported</strong> by Die2Nite</li>
+<li>Ensure you have an <strong>up-to-date version of Adobe Flash Player</strong>. </li>
+<li>You can report this problem on our technical support site : <a href="/support?go=hordes_bug" target="_blank">bug reports</a>.</li>
+</ul>
+<p class="help"><em><strong><a href="/" target="_top"> Click here to return to the site!</a></strong></em></p>
+</div>
+]]>
+</fill>

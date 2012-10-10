@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hordes xmlns:dc="http://purl.org/dc/elements/1.1" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <headers link="http://www.die2nite.com/xml" iconurl="http://data.die2nite.com/gfx/icons/" secure="0"
+             author="Motion Twin &lt;http://www.motion-twin.com&gt;" language="en" version="2.171"
+             avatarurl="http://imgup.motion-twin.com/" generator="haxe"/>
+    <error code="not_in_game"/>
+    <status open="1" msg=""/>
+</hordes>

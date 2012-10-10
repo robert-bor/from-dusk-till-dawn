@@ -1,0 +1,34 @@
+Communication with Oval Office works as follows:
+
+MAIL
+
+1. First a call is made to Duskdawn:
+
+   GET /mail?key=[USER_KEY]
+
+2. A call is then sent to Oval Office to acquire mail information:
+
+   GET http://d2n.sindevel.com/oo/api.php?mode=checkmail&apikey=[SITE_KEY]&userid=[GAME_ID]
+
+   The site key is stored in sitekey.properties with variable name sitekey.oo. Note that this file is not persisted to maintain the security of the keys.
+   The game ID is part of the user information: user.getGameId()
+
+3. Oval Office sends back a record with the following layout:
+
+   ?{
+     "messages": 0,
+     "invitations": 0,
+     "userid": 109665,
+     "tempkey": "dd6cd6284301703962816e16e21aa77e",
+     "valid": 1326038572,
+     "oourl": "http://d2n.sindevel.com/oo/?user=109665&tkey=dd6cd6284301703962816e16e21aa77e"
+   }
+
+   * messages: number of messages waiting in the OO mailbox
+   * invitations: number of invitations waiting in the OO mailbox
+   * userid: user ID in the Die2Nite database
+   * tempkey: temporary key to access Oval Office without going through the Die2Nite site
+   * valid: until what time (OO server time) the temporary key is valid. 60 minutes.
+   * oourl: URL that can be linked to, for the user to go to Oval Office
+
+4. The user sends back the Oval Office information to the caller.

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:tx="http://www.springframework.org/schema/tx"
+        xmlns:jee="http://www.springframework.org/schema/jee" xmlns:aop="http://www.springframework.org/schema/aop"
+        xmlns:cache="http://www.springframework.org/schema/cache"
+        xmlns:task="http://www.springframework.org/schema/task"
+        xmlns:util="http://www.springframework.org/schema/util"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans	http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+	        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
+	        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.1.xsd
+	        http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.1.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd
+            http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+
+    <cache:annotation-driven />
+
+    <!-- Scans the classpath of this application for @Components to deploy as beans -->
+    <context:component-scan base-package="nl.d2n"/>
+
+    <import resource="mvc-context.xml"/>
+
+    <bean id="siteKey" class="nl.d2n.reader.sitekey.D2NSiteKey">
+        <property name="key" value="${sitekey.key}"/>
+    </bean>
+    <bean id="ovalOfficeSiteKey" class="nl.d2n.reader.sitekey.OvalOfficeSiteKey">
+        <property name="key" value="${sitekey.oo}"/>
+    </bean>
+    <bean id="siteKeyChecker" class="nl.d2n.model.SiteKeyChecker">
+        <constructor-arg>
+            <util:properties location="classpath:sitekey.properties"/>
+        </constructor-arg>
+    </bean>
+    <bean id="xmlFile" class="nl.d2n.reader.D2NXmlFile">
+        <property name="directory" value="/d2n-xml/"/>
+    </bean>
+
+    <bean class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor" />
+
+    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+        <property name="entityManagerFactory" ref="entityManagerFactory" />
+    </bean>
+
+    <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+        <property name="persistenceUnitName" value="duskdawnPersistence" />
+        <property name="dataSource" ref="dataSource"/>
+        <property name="jpaPropertyMap">
+            <map>
+                <entry key="hibernate.connection.isolation" value="1"/>
+                <entry key="hibernate.dialect" value-ref="hibernateDialect"/>
+                <entry key="hibernate.hbm2ddl.auto" value-ref="hibernateSchemaHandling"/>
+                <entry key="hibernate.show_sql" value="${hibernate.show_sql}"/>
+            </map>
+        </property>
+    </bean>
+
+    <jee:jndi-lookup id="dataSource" jndi-name="jdbc/FromDuskTillDawnDataSource" expected-type="javax.sql.DataSource"/>
+    <jee:jndi-lookup id="hibernateDialect" jndi-name="HibernateDialect" expected-type="java.lang.String"/>
+    <jee:jndi-lookup id="hibernateSchemaHandling" jndi-name="HibernateSchemaHandling" expected-type="java.lang.String"/>
+    <context:property-placeholder location="classpath:persistence.properties" ignore-unresolvable="true"/>
+    <context:property-placeholder location="classpath:sitekey.properties" ignore-unresolvable="true"/>
+
+    <bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor"/>
+
+    <tx:annotation-driven />
+
+    <aop:aspectj-autoproxy/>
+
+    <bean id="stopWatch" class="nl.d2n.util.StopWatch"/>
+    <bean id="externalApplicationAuthenticator" class="nl.d2n.service.ExternalApplicationAuthenticator"/>
+
+    <bean id="cacheManager" class="org.springframework.cache.ehcache.EhCacheCacheManager">
+        <property name="cacheManager" ref="ehcache"/>
+    </bean>
+    <bean id="ehcache" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean"/>
+
+    <task:annotation-driven executor="myExecutor" scheduler="myScheduler"/>
+    <task:executor id="myExecutor" pool-size="5"/>
+    <task:scheduler id="myScheduler" pool-size="10"/>
+
+</beans>

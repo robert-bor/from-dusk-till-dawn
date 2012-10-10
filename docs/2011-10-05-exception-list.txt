@@ -1,0 +1,78 @@
+ILLEGALE STATE EXCEPTION (2x)
+java.lang.IllegalStateException: No match found
+
+2011-10-03 22:31:19,920 ERROR [nl.d2n.controller.ZoneController] - </zone>
+2011-10-03 22:31:19,921 ERROR [nl.d2n.controller.ZoneController] - <  x=-3>
+2011-10-03 22:31:19,921 ERROR [nl.d2n.controller.ZoneController] - <  items=125-1>
+2011-10-03 22:31:19,921 ERROR [nl.d2n.controller.ZoneController] - <  day=7>
+2011-10-03 22:31:19,921 ERROR [nl.d2n.controller.ZoneController] - <  key=7c2329d594d07e225f61ebbeb1355278643f27>
+2011-10-03 22:31:19,921 ERROR [nl.d2n.controller.ZoneController] - <  argument=>
+2011-10-03 22:31:19,921 ERROR [nl.d2n.controller.ZoneController] - <  action=SAVE_ITEMS>
+2011-10-03 22:31:19,921 ERROR [nl.d2n.controller.ZoneController] - <  city=15737>
+2011-10-03 22:31:19,921 ERROR [nl.d2n.controller.ZoneController] - <  y=7>
+java.lang.IllegalStateException: No match found
+        at java.util.regex.Matcher.group(Matcher.java:485)
+        at nl.d2n.model.Item.translateItemKey(Item.java:96)
+        at nl.d2n.service.MapService.updateMyZone(MapService.java:129)
+        at nl.d2n.controller.ZoneController.updateMyZone(ZoneController.java:49)
+        at sun.reflect.GeneratedMethodAccessor56.invoke(Unknown Source)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:616)
+        at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:185)
+        at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:126)
+        at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:100)
+        at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:502)
+        at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:465)
+        at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80)
+        at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:863)
+        at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:792)
+        at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:851)
+        at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:767)
+        at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:851)
+        at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:767)
+        at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+        at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+        at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+        at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+        at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+        at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+        at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+        at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+        at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+        at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+        at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+        at java.lang.Thread.run(Thread.java:636)
+
+NULL POINTER EXCEPTION (1x)
+java.lang.NullPointerException
+Root cause: zzzdrake's account was closed. However, this information does not display in the XML feed.
+
+CONNECT EXCEPTION (1x)
+java.net.ConnectException: Connection timed out
+
+TIMEOUT EXCEPTION (5x)
+java.net.SocketTimeoutException: Read timed out
+
+STALE STATE EXCEPTION (16x)
+org.hibernate.StaleStateException: Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1
+
+JPA OPTIMISTIC LOCKING FAILURE EXCEPTION (8x)
+org.springframework.orm.jpa.JpaOptimisticLockingFailureException: org.hibernate.StaleStateException: Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1; nested exception is javax.persistence.OptimisticLockException: org.hibernate.StaleStateException: Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1
+
+CONTENT IS NOT ALLOWED IN PROLOG
+011-10-05 00:02:39,266 ERROR [nl.d2n.reader.AbstractXmlReader] - <Content is not allowed in prolog.>
+Suspected source: docs/sample-xml/error/sometimes-you-get-this.xml
+
+FAVICON.ICO MAPPING NOT FOUND
+2011-10-05 00:20:14,606 WARN [org.springframework.web.servlet.PageNotFound] - <No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'Spring Dispatcher Servlet'>
+
+REQUEST METHOD GET NOT FOUND
+2011-10-05 02:35:11,945 WARN [org.springframework.web.servlet.PageNotFound] - <Request method 'GET' not supported>
+
+THREADLOCAL FORCIBLY REMOVED
+SEVERE: A web application created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Current transaction name]) and a value of type [null] (value [null]) but failed to remove it when the web application was stopped. To prevent a memory leak, the ThreadLocal has been forcibly removed.
+
+http://forum.springsource.org/showthread.php?84202-Installation-ThreadLocal-forcefully-removed
+http://www.skill-guru.com/blog/2010/08/22/tomcat-6-0-26-shutdown-reports-a-web-application-created-a-threadlocal-threadlocal-has-been-forcibly-removed/

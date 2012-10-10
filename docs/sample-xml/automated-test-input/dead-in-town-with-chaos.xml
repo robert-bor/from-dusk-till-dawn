@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hordes xmlns:dc="http://purl.org/dc/elements/1.1" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <headers link="http://www.die2nite.com/xml" iconurl="http://data.die2nite.com/gfx/icons/" secure="1"
+             author="Motion Twin &lt;http://www.motion-twin.com&gt;" language="en" version="2.171"
+             avatarurl="http://imgup.motion-twin.com/" generator="haxe">
+        <owner>
+            <citizen dead="1" hero="0" name="TerraUrsus" avatar="hordes/4/4/39fed59c_121543.jpg" id="121543">
+                <![CDATA[]]></citizen>
+        </owner>
+        <game days="13" quarantine="0" datetime="2011-08-20 08:23:44" id="14084"/>
+    </headers>
+    <data cache-date="2011-08-20 08:23:44" cache-fast="1">
+        <city city="The islands of Cyclops" door="0" water="34" chaos="1" devast="0" x="11" y="17">
+            <building name="Wall Upgrade v1" temporary="0" id="1010" img="small_wallimprove">
+                <![CDATA[Significantly increases the town's defences.]]></building>
+            <building name="Pump" temporary="0" id="1011" img="small_water">
+                <![CDATA[The pump unlocks all the construction projects involving water. It also increases the well's underground reserves considerably.]]></building>
+            <building name="Great Pit" temporary="0" parent="1010" id="1023" img="small_gather">
+                <![CDATA[The Great Pit is a very effective defensive measure: a big hole surrounding the town. Also known as "the Brad", it is very practical in the long term, as it can be filled with all sorts of things to make it even more effective!]]></building>
+            <building name="Barbed Wire" temporary="0" parent="1010" id="1028" img="small_barbed">
+                <![CDATA[It's even a little more basic than you might imagine - we've run out of wire...]]></building>
+            <building name="Workshop" temporary="0" id="1033" img="small_refine">
+                <![CDATA[The advancement of a town depends on the construction of a shabby workshop full of nondescript clutter. It allows resources to be converted and is a pre-requisite for the construction of other more advanced buildings.]]></building>
+            <building name="Watchtower" temporary="0" id="1050" img="item_tagger">
+                <![CDATA[This tower, situated near the gates, gives an estimation of the magnitude of the forthcoming attack, allowing the citizens to be better prepared. It also unlocks all construction projects linked to emergency situations.]]></building>
+            <building name="Foundations" temporary="0" id="1051" img="small_building">
+                <![CDATA[Foundations allow "Extreme Projects" to be completed (projects which take a long time to complete, but which have very powerful results).]]></building>
+            <building name="Wooden Fencing" temporary="0" parent="1010" id="1058" img="small_fence">
+                <![CDATA[Wooden fences surrounding the town should (in theory)... slow down the zombie hordes significantly during the attack...]]></building>
+            <building name="Portal Lock" temporary="0" id="1062" img="small_door_closed">
+                <![CDATA[A somewhat old-fashioned device which stops the gates being opened during the 20 minutes immediately before the attack. The gates still have to be closed manually.]]></building>
+            <building name="Reinforced Gates" temporary="0" parent="1062" id="1069" img="item_plate">
+                <![CDATA[Heavy steel plate fixed to the town gates to add extra zombie-proofing!]]></building>
+            <building name="Emergency Supplies" temporary="0" parent="1050" id="1074" img="status_terror">
+                <![CDATA[To prepare for any eventuality, it is sometimes necessary to build emergency defences which are not destined to last more than one attack. The Emergency Supplies system fulfils this need. Be sure not to waste resources hastily building temporary structures all over the camp!]]></building>
+            <building name="Small Cemetary" temporary="0" parent="1033" id="1105" img="small_cemetery">
+                <![CDATA[Bring out your dead! For once, they're going to be useful. Use them to summarily improve our defences. Each dead citizen brought to the cemetary gives +10 defence points to the town. Note: How and where the victim died makes no nevermind...]]></building>
+            <building name="Fortifications" temporary="0" parent="1051" id="1125" img="small_city_up">
+                <![CDATA[On the rare occasion a construction project benefits citizens directly, we won't complain. All citizens' houses will gain +4 defence points.]]></building>
+            <building name="Divining Rocket" temporary="0" parent="1011" id="1152" img="small_rocketperf">
+                <![CDATA[A home-made rocket launcher fired into the ground: think about it! As the story goes, the inventor of this construction project was trying to invent the "rocket-jump". All he did was to re-invent "the crater". Nonetheless, this construction adds +60 water rations to the well.]]></building>
+            <news z="1523" def="0">
+                <content>
+                    <![CDATA[<p>It should be noted that the 4 pointless deaths last night could have been avoided if someone had closed the gates! Will someone take this responsilbility&nbsp;? <strong>t1suka</strong>&nbsp;?</p>]]></content>
+            </news>
+            <defense base="10" items="8" citizen_guardians="0" citizen_homes="22" upgrades="150" buildings="65"
+                     total="615" itemsMul="1"/>
+        </city>
+        <bank>
+            <item name="Padlock and Chain" count="3" id="35" cat="Furniture" img="lock" broken="0"/>
+            <item name="Pathetic Penknife" count="2" id="18" cat="Weapon" img="small_knife" broken="0"/>
+            <item name="Manbag" count="1" id="25" cat="Box" img="bag" broken="0"/>
+            <item name="Bedside Lamp (off)" count="1" id="32" cat="Furniture" img="lamp" broken="0"/>
+            <item name="Scrap Metal" count="6" id="161" cat="Rsc" img="metal_bad" broken="0"/>
+            <item name="Battery Launcher 1-ITF (empty)" count="2" id="117" cat="Weapon" img="pilegun_empty" broken="0"/>
+            <item name="Devastator (incomplete)" count="2" id="124" cat="Misc" img="big_pgun_part" broken="0"/>
+            <item name="Plastic Bag" count="14" id="76" cat="Weapon" img="grenade_empty" broken="0"/>
+            <item name="Rotting Log" count="13" id="162" cat="Rsc" img="wood_bad" broken="0"/>
+            <item name="Twisted Plank" count="8" id="59" cat="Rsc" img="wood2" broken="0"/>
+            <item name="Bandage" count="1" id="66" cat="Drug" img="bandage" broken="0"/>
+            <item name="Semtex" count="2" id="73" cat="Rsc" img="explo" broken="0"/>
+            <item name="Compact Detonator" count="2" id="132" cat="Rsc" img="deto" broken="0"/>
+            <item name="Solid Wooden Board" count="3" id="179" cat="Armor" img="wood_plate" broken="0"/>
+            <item name="Old Washing Machine" count="3" id="186" cat="Furniture" img="machine_1" broken="0"/>
+            <item name="Wrought Iron" count="7" id="60" cat="Rsc" img="metal" broken="0"/>
+            <item name="Strong Spices" count="1" id="149" cat="Misc" img="spices" broken="0"/>
+            <item name="Rocking Chair" count="3" id="29" cat="Furniture" img="chair" broken="0"/>
+            <item name="Stinking Pig" count="1" id="43" cat="Misc" img="pet_pig" broken="0"/>
+            <item name="Box of Matches" count="8" id="26" cat="Misc" img="lights" broken="0"/>
+            <item name="Repair Kit" count="1" id="110" cat="Misc" img="repair_kit" broken="0"/>
+            <item name="Can Opener" count="3" id="23" cat="Weapon" img="can_opener" broken="0"/>
+            <item name="Box Cutter" count="1" id="20" cat="Weapon" img="cutter" broken="0"/>
+            <item name="Unshaped Concrete Blocks" count="3" id="134" cat="Armor" img="concrete_wall" broken="0"/>
+            <item name="Wire Mesh" count="1" id="204" cat="Furniture" img="fence" broken="0"/>
+            <item name="Radio Cassette Player (no battery)" count="4" id="104" cat="Misc" img="radio_off" broken="0"/>
+            <item name="Beer Fridge" count="3" id="188" cat="Furniture" img="machine_3" broken="0"/>
+            <item name="Grisly Bomb" count="1" id="258" cat="Misc" img="flesh" broken="0"/>
+            <item name="Exploding Water Bomb" count="1" id="77" cat="Weapon" img="bgrenade" broken="0"/>
+            <item name="Copper Pipe" count="6" id="84" cat="Rsc" img="tube" broken="0"/>
+            <item name="Duct Tape" count="10" id="81" cat="Rsc" img="rustine" broken="0"/>
+            <item name="Ektorp-Gluten Chair" count="7" id="128" cat="Furniture" img="chair_basic" broken="0"/>
+            <item name="Water Pistol (3 shots)" count="1" id="205" cat="Weapon" img="watergun_3" broken="0"/>
+            <item name="Battery" count="5" id="2" cat="Rsc" img="pile" broken="0"/>
+            <item name="Sheet Metal" count="1" id="64" cat="Armor" img="plate" broken="0"/>
+            <item name="Radio Cassette Player " count="9" id="105" cat="Furniture" img="radio_on" broken="0"/>
+            <item name="Aqua-Splash (3 shots)" count="1" id="112" cat="Weapon" img="watergun_opt_3" broken="0"/>
+            <item name="Water Ration" count="4" id="1" cat="Food" img="water" broken="0"/>
+            <item name="Huge Snake (Ophiophagus trouser)" count="3" id="47" cat="Misc" img="pet_snake" broken="0"/>
+            <item name="Groundsheet" count="1" id="54" cat="Misc" img="sheet" broken="0"/>
+            <item name="Giant Rat" count="1" id="44" cat="Misc" img="pet_rat" broken="0"/>
+            <item name="Handful of nuts and bolts" count="2" id="41" cat="Rsc" img="meca_parts" broken="0"/>
+            <item name="Flash Grenade" count="1" id="174" cat="Misc" img="flash" broken="0"/>
+            <item name="Screwdriver" count="1" id="14" cat="Weapon" img="screw" broken="0"/>
+            <item name="Ness-Quick Weedkiller" count="5" id="137" cat="Misc" img="digger" broken="0"/>
+            <item name="Corrosive Liquid" count="1" id="221" cat="Misc" img="poison_part" broken="0"/>
+            <item name="Old Door" count="1" id="107" cat="Armor" img="door" broken="0"/>
+            <item name="Full Jerrycan" count="1" id="58" cat="Misc" img="jerrycan" broken="0"/>
+            <item name="Sticky Pastry Ball" count="1" id="253" cat="Misc" img="fruit_part" broken="0"/>
+        </bank>
+        <expeditions/>
+        <citizens>
+            <citizen dead="0" hero="0" name="bullmastiff" id="5990" ban="0" job="basic" out="0" baseDef="10">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="sangohan1564" avatar="hordes/9/0/ad74669e_34742.jpg" id="34742" ban="0"
+                     job="basic" out="0" baseDef="10"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="t1suka" id="139080" ban="0" job="basic" out="0" baseDef="10">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="technopaladin" avatar="hordes/e/9/a3bf3d0b_73841.jpg" id="73841" ban="0"
+                     job="basic" out="0" baseDef="10"><![CDATA[]]></citizen>
+        </citizens>
+        <cadavers>
+            <cadaver name="bananapie62" dtype="6" id="44597" day="12">
+                <cleanup type="water" user="t1suka"/>
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="bbq25" dtype="5" id="530" day="6">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="Biohazard" dtype="5" id="4301" day="4">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="Cerebus" dtype="1" id="5287" day="11">
+                <cleanup type="garbage" user="Cvalya"/>
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="chaos2586" dtype="5" id="64486" day="4">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="Checkmeout" dtype="5" id="121560" day="2">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="CitizenSnips" dtype="6" id="55124" day="12">
+                <cleanup type="water" user="t1suka"/>
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="Cvalya" dtype="6" id="15598" day="12">
+                <cleanup type="water" user="t1suka"/>
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="Deman92" dtype="6" id="117328" day="11">
+                <cleanup type="garbage" user="bananapie62"/>
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="eedold" dtype="5" id="18247" day="9">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="FrozenSolid" dtype="1" id="132101" day="7">
+                <cleanup type="garbage" user="TNuts"/>
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="FXGTZ" dtype="5" id="62274" day="2">
+                <msg><![CDATA[i scavenged for too long, sorry.]]></msg>
+            </cadaver>
+            <cadaver name="Gaut" dtype="6" id="133533" day="11">
+                <cleanup type="garbage" user="bananapie62"/>
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="greenwarrior" dtype="5" id="119276" day="1">
+                <msg><![CDATA[stuck in a horde of 3 zeds]]></msg>
+            </cadaver>
+            <cadaver name="greveur" dtype="5" id="26907" day="3">
+                <msg><![CDATA[i was 1 sec to late to hide..]]></msg>
+            </cadaver>
+            <cadaver name="Hanne" dtype="5" id="147541" day="3">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="hotgirlz1100" dtype="5" id="57105" day="2">
+                <msg><![CDATA[no]]></msg>
+            </cadaver>
+            <cadaver name="Imoen" dtype="5" id="69353" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="Keith" dtype="5" id="8956" day="3">
+                <msg><![CDATA[it's nice to put soem ap itno the energy]]></msg>
+            </cadaver>
+            <cadaver name="klas1313" dtype="6" id="139935" day="11">
+                <cleanup type="garbage" user="Cvalya"/>
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="konann" dtype="5" id="22874" day="5">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="LazyNinja" dtype="5" id="127451" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="Lowman101" dtype="11" id="58030" day="4">
+                <msg><![CDATA[...the murderer .. was.. WAS.. AAARGHhh..]]></msg>
+            </cadaver>
+            <cadaver name="mait" dtype="5" id="92738" day="7">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="mattster768" dtype="1" id="85932" day="4">
+                <cleanup type="garbage" user="sangohan1564"/>
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="mus6677" dtype="5" id="18770" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="OuttaPhase" dtype="6" id="75916" day="11">
+                <cleanup type="garbage" user="bananapie62"/>
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="Pannerz" dtype="5" id="11611" day="3">
+                <msg>
+                    <![CDATA[Heed our words of wisdom... of beef curtains...tampons...an d penetration. Party on!]]></msg>
+            </cadaver>
+            <cadaver name="Shepherd" dtype="5" id="137" day="3">
+                <msg><![CDATA[Deeper!]]></msg>
+            </cadaver>
+            <cadaver name="Spankie" dtype="5" id="64940" day="2">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="TerraUrsus" dtype="1" id="121543" day="10">
+                <cleanup type="garbage" user="Gaut"/>
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="TheProdigy" dtype="6" id="89453" day="11">
+                <cleanup type="garbage" user="bananapie62"/>
+                <msg><![CDATA[I knew I shoulda camped, just wish I had AP to do it... :P]]></msg>
+            </cadaver>
+            <cadaver name="Tipthejester" dtype="5" id="57148" day="1">
+                <msg><![CDATA[What is this? I had good chance to survive!]]></msg>
+            </cadaver>
+            <cadaver name="TNuts" dtype="6" id="135882" day="12">
+                <cleanup type="water" user="t1suka"/>
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="toa47" dtype="1" id="42662" day="6">
+                <cleanup type="garbage" user="OuttaPhase"/>
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="zooey" dtype="5" id="147323" day="3">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+        </cadavers>
+        <map hei="25" wid="25">
+            <zone x="18" y="1" nvt="1"/>
+            <zone x="19" y="1" nvt="1"/>
+            <zone x="20" y="1" nvt="1"/>
+            <zone x="21" y="1" nvt="1"/>
+            <zone x="16" y="2" nvt="1"/>
+            <zone x="17" y="2" nvt="1"/>
+            <zone x="18" y="2" nvt="1" tag="4"/>
+            <zone x="19" y="2" nvt="1" tag="4"/>
+            <zone x="20" y="2" nvt="1"/>
+            <zone x="21" y="2" nvt="1" tag="2"/>
+            <zone x="16" y="3" nvt="1"/>
+            <zone x="18" y="3" nvt="1"/>
+            <zone x="19" y="3" nvt="1"/>
+            <zone x="20" y="3" nvt="1"/>
+            <zone x="21" y="3" nvt="1" tag="4"/>
+            <zone x="22" y="3" nvt="1"/>
+            <zone x="16" y="4" nvt="1"/>
+            <zone x="20" y="4" nvt="1">
+                <building name="Old Field Hospital" type="54" dig="0">
+                    <![CDATA[The remains which litter the corridors of this improvised hospital must be what is left of the patients. It's difficult to say how many must have died here on the night of the attack... Maybe if you count the number of arms on the ground and divide by two ?]]></building>
+            </zone>
+            <zone x="21" y="4" nvt="1" tag="4"/>
+            <zone x="22" y="4" nvt="1"/>
+            <zone x="16" y="5" nvt="1"/>
+            <zone x="20" y="5" nvt="1"/>
+            <zone x="21" y="5" nvt="1">
+                <building name="Old Field Hospital" type="54" dig="0">
+                    <![CDATA[The remains which litter the corridors of this improvised hospital must be what is left of the patients. It's difficult to say how many must have died here on the night of the attack... Maybe if you count the number of arms on the ground and divide by two ?]]></building>
+            </zone>
+            <zone x="22" y="5" nvt="1"/>
+            <zone x="16" y="6" nvt="1"/>
+            <zone x="20" y="6" nvt="1"/>
+            <zone x="21" y="6" nvt="1"/>
+            <zone x="22" y="6" nvt="1"/>
+            <zone x="8" y="7" nvt="0" danger="3"/>
+            <zone x="9" y="7" nvt="0" danger="3"/>
+            <zone x="10" y="7" nvt="0" danger="3"/>
+            <zone x="11" y="7" nvt="0" danger="3"/>
+            <zone x="12" y="7" nvt="0" danger="3"/>
+            <zone x="13" y="7" nvt="0" danger="3"/>
+            <zone x="14" y="7" nvt="0" danger="3"/>
+            <zone x="16" y="7" nvt="1"/>
+            <zone x="20" y="7" nvt="1"/>
+            <zone x="21" y="7" nvt="1"/>
+            <zone x="22" y="7" nvt="1"/>
+            <zone x="6" y="8" nvt="0" danger="3"/>
+            <zone x="7" y="8" nvt="0" danger="3"/>
+            <zone x="8" y="8" nvt="0" danger="3"/>
+            <zone x="9" y="8" nvt="0" danger="3"/>
+            <zone x="10" y="8" nvt="0" danger="3"/>
+            <zone x="11" y="8" nvt="0" danger="3"/>
+            <zone x="12" y="8" nvt="0" danger="3"/>
+            <zone x="13" y="8" nvt="0" danger="3"/>
+            <zone x="14" y="8" nvt="0" danger="3"/>
+            <zone x="15" y="8" nvt="0" danger="3"/>
+            <zone x="16" y="8" nvt="0" danger="3"/>
+            <zone x="20" y="8" nvt="1"/>
+            <zone x="21" y="8" nvt="1"/>
+            <zone x="22" y="8" nvt="1">
+                <building name="Collapsed Mineshaft" type="52" dig="0">
+                    <![CDATA[An old mine which has not resisted the ravages of time well. God knows what caprice could have led people to look so deep underground to find something useful. Especially when you only just have to scratch the surface to find some delicious cockroaches to crunch on ! You start to feel hungry just thinking about it...]]></building>
+            </zone>
+            <zone x="5" y="9" nvt="0" danger="3"/>
+            <zone x="6" y="9" nvt="0" danger="3"/>
+            <zone x="7" y="9" nvt="0" danger="3"/>
+            <zone x="8" y="9" nvt="0" danger="3"/>
+            <zone x="9" y="9" nvt="0" danger="3">
+                <building name="Buried building" type="-1" dig="4"/>
+            </zone>
+            <zone x="10" y="9" nvt="0" danger="3"/>
+            <zone x="11" y="9" nvt="0" danger="3"/>
+            <zone x="12" y="9" nvt="0" danger="3"/>
+            <zone x="13" y="9" nvt="0" danger="3"/>
+            <zone x="14" y="9" nvt="0" danger="3"/>
+            <zone x="15" y="9" nvt="0" danger="3"/>
+            <zone x="16" y="9" nvt="0" danger="3"/>
+            <zone x="17" y="9" nvt="0" danger="3"/>
+            <zone x="20" y="9" nvt="1"/>
+            <zone x="21" y="9" nvt="1"/>
+            <zone x="22" y="9" nvt="1"/>
+            <zone x="4" y="10" nvt="0" danger="3"/>
+            <zone x="5" y="10" nvt="0" danger="3"/>
+            <zone x="6" y="10" nvt="0" danger="3"/>
+            <zone x="7" y="10" nvt="0" danger="3"/>
+            <zone x="8" y="10" nvt="0" danger="3"/>
+            <zone x="9" y="10" nvt="0" danger="3"/>
+            <zone x="10" y="10" nvt="0" danger="3"/>
+            <zone x="11" y="10" nvt="0" danger="3"/>
+            <zone x="12" y="10" nvt="0" danger="3"/>
+            <zone x="13" y="10" nvt="0" danger="3"/>
+            <zone x="14" y="10" nvt="0" danger="3"/>
+            <zone x="15" y="10" nvt="0" danger="3"/>
+            <zone x="16" y="10" nvt="0" danger="3"/>
+            <zone x="17" y="10" nvt="0" danger="3"/>
+            <zone x="18" y="10" nvt="0" danger="3"/>
+            <zone x="19" y="10" nvt="1"/>
+            <zone x="20" y="10" nvt="1"/>
+            <zone x="21" y="10" nvt="1"/>
+            <zone x="22" y="10" nvt="1"/>
+            <zone x="2" y="11" nvt="1">
+                <building name="Mini-Market" type="42" dig="0">
+                    <![CDATA[This small convenience store sold pretty much all the day-to-day necessities : Food, drinks, cleaning products... Open 24/7 365 days a year if you believe the printing on the window. The gaping hole in said window makes this statement 100% correct !]]></building>
+            </zone>
+            <zone x="3" y="11" nvt="0" danger="3"/>
+            <zone x="4" y="11" nvt="0" danger="3"/>
+            <zone x="5" y="11" nvt="0" danger="3"/>
+            <zone x="6" y="11" nvt="0" danger="3">
+                <building name="Mini-Market" type="42" dig="0">
+                    <![CDATA[This small convenience store sold pretty much all the day-to-day necessities : Food, drinks, cleaning products... Open 24/7 365 days a year if you believe the printing on the window. The gaping hole in said window makes this statement 100% correct !]]></building>
+            </zone>
+            <zone x="7" y="11" nvt="0" danger="3"/>
+            <zone x="8" y="11" nvt="0" danger="3"/>
+            <zone x="9" y="11" nvt="0" danger="3"/>
+            <zone x="10" y="11" nvt="0" danger="3"/>
+            <zone x="11" y="11" nvt="0" tag="5" danger="3"/>
+            <zone x="12" y="11" nvt="0" tag="5" danger="3">
+                <building name="Old Police Station" type="8" dig="0">
+                    <![CDATA[This imposing building stretches over several hundred metres. It is split into numerous rooms but many of them collapsed a long time ago. If you look at the number of bullet holes and improvised barricades, it seems that this police station was the scene of some particularly violent confrontations.]]></building>
+            </zone>
+            <zone x="13" y="11" nvt="0" tag="5" danger="3"/>
+            <zone x="14" y="11" nvt="0" danger="3"/>
+            <zone x="15" y="11" nvt="0" danger="3"/>
+            <zone x="16" y="11" nvt="0" danger="3">
+                <building name="Buried building" type="-1" dig="13"/>
+            </zone>
+            <zone x="17" y="11" nvt="0" danger="3"/>
+            <zone x="18" y="11" nvt="0" danger="3"/>
+            <zone x="19" y="11" nvt="0" danger="3"/>
+            <zone x="20" y="11" nvt="1"/>
+            <zone x="21" y="11" nvt="1" tag="4"/>
+            <zone x="22" y="11" nvt="1"/>
+            <zone x="2" y="12" nvt="0" danger="3"/>
+            <zone x="3" y="12" nvt="0" danger="3"/>
+            <zone x="4" y="12" nvt="0" danger="3"/>
+            <zone x="5" y="12" nvt="0" tag="5" danger="3"/>
+            <zone x="6" y="12" nvt="0" danger="3"/>
+            <zone x="7" y="12" nvt="0" danger="3"/>
+            <zone x="8" y="12" nvt="0" danger="3"/>
+            <zone x="9" y="12" nvt="0" danger="3"/>
+            <zone x="10" y="12" nvt="0" tag="3" danger="3"/>
+            <zone x="11" y="12" nvt="0" tag="5" danger="3"/>
+            <zone x="12" y="12" nvt="0" tag="5" danger="3"/>
+            <zone x="13" y="12" nvt="0" danger="3"/>
+            <zone x="14" y="12" nvt="0" danger="3"/>
+            <zone x="15" y="12" nvt="0" danger="3"/>
+            <zone x="16" y="12" nvt="0" danger="3"/>
+            <zone x="17" y="12" nvt="0" danger="3">
+                <building name="Fairground Stall" type="11" dig="0">
+                    <![CDATA[Places like this are a godsend these days... You are guaranteed all the plastic toys you could want here... and maybe some other useful gadgets.]]></building>
+            </zone>
+            <zone x="18" y="12" nvt="0" danger="3"/>
+            <zone x="19" y="12" nvt="0" danger="3"/>
+            <zone x="20" y="12" nvt="0" tag="4" danger="3">
+                <building name="Dilapidated Building" type="49" dig="0">
+                    <![CDATA[A nice office building where people used to get on with their work, starting early in the morning, surrounded by anonymous colleagues, trying to finish who knows what project but with one clear goal : their own survival. You think to yourself that maybe things haven't really changed all that much...]]></building>
+            </zone>
+            <zone x="21" y="12" nvt="1"/>
+            <zone x="22" y="12" nvt="1"/>
+            <zone x="2" y="13" nvt="0" danger="3"/>
+            <zone x="3" y="13" nvt="0" danger="3"/>
+            <zone x="4" y="13" nvt="0" danger="3"/>
+            <zone x="5" y="13" nvt="0" danger="3"/>
+            <zone x="6" y="13" nvt="0" danger="3"/>
+            <zone x="7" y="13" nvt="0" danger="3"/>
+            <zone x="8" y="13" nvt="0" tag="5" danger="3"/>
+            <zone x="9" y="13" nvt="0" tag="5" danger="3"/>
+            <zone x="10" y="13" nvt="0" tag="5" danger="3"/>
+            <zone x="11" y="13" nvt="0" tag="5" danger="3"/>
+            <zone x="12" y="13" nvt="0" tag="2" danger="3"/>
+            <zone x="13" y="13" nvt="0" danger="3"/>
+            <zone x="14" y="13" nvt="0" danger="3"/>
+            <zone x="15" y="13" nvt="0" danger="3"/>
+            <zone x="16" y="13" nvt="0" danger="3"/>
+            <zone x="17" y="13" nvt="0" danger="3"/>
+            <zone x="18" y="13" nvt="0" danger="3"/>
+            <zone x="19" y="13" nvt="0" danger="3"/>
+            <zone x="20" y="13" nvt="0" danger="3"/>
+            <zone x="21" y="13" nvt="1"/>
+            <zone x="1" y="14" nvt="0" danger="3"/>
+            <zone x="2" y="14" nvt="0" danger="3"/>
+            <zone x="3" y="14" nvt="0" danger="3"/>
+            <zone x="4" y="14" nvt="0" danger="3"/>
+            <zone x="5" y="14" nvt="0" danger="3"/>
+            <zone x="6" y="14" nvt="0" danger="3"/>
+            <zone x="7" y="14" nvt="0" danger="3"/>
+            <zone x="8" y="14" nvt="0" danger="3"/>
+            <zone x="9" y="14" nvt="0" tag="5" danger="3"/>
+            <zone x="10" y="14" nvt="0" tag="5" danger="3"/>
+            <zone x="11" y="14" nvt="0" tag="5" danger="3"/>
+            <zone x="12" y="14" nvt="0" tag="5" danger="3"/>
+            <zone x="13" y="14" nvt="0" danger="3"/>
+            <zone x="14" y="14" nvt="0" danger="3"/>
+            <zone x="15" y="14" nvt="0" danger="3"/>
+            <zone x="16" y="14" nvt="0" danger="3"/>
+            <zone x="17" y="14" nvt="0" danger="3"/>
+            <zone x="18" y="14" nvt="0" danger="3"/>
+            <zone x="19" y="14" nvt="0" danger="3"/>
+            <zone x="20" y="14" nvt="0" danger="3"/>
+            <zone x="21" y="14" nvt="0" danger="3"/>
+            <zone x="0" y="15" nvt="1"/>
+            <zone x="1" y="15" nvt="0" danger="3"/>
+            <zone x="2" y="15" nvt="0" danger="3"/>
+            <zone x="3" y="15" nvt="0" danger="3"/>
+            <zone x="4" y="15" nvt="0" danger="3"/>
+            <zone x="5" y="15" nvt="0" danger="3"/>
+            <zone x="6" y="15" nvt="0" danger="3"/>
+            <zone x="7" y="15" nvt="0" tag="5" danger="3"/>
+            <zone x="8" y="15" nvt="0" tag="5" danger="3"/>
+            <zone x="9" y="15" nvt="0" tag="5" danger="3"/>
+            <zone x="10" y="15" nvt="0" tag="5" danger="3"/>
+            <zone x="11" y="15" nvt="0" tag="5" danger="3">
+                <building name="Small House" type="12" dig="0">
+                    <![CDATA[An old shack which has been uninhabited for years. Almost completely buried in sand, but you can still hear some unsettling groaning noises coming from what must be the cellar...]]></building>
+            </zone>
+            <zone x="12" y="15" nvt="0" tag="5" danger="3">
+                <building name="Ambulance" type="36" dig="0">
+                    <![CDATA[This ambulance has been abandoned in the middle of the road. The wheels are gone, as is the engine... There are no signs of a struggle, and no signs of an accident. There are no bodies either come to that...]]></building>
+            </zone>
+            <zone x="13" y="15" nvt="0" tag="5" danger="3"/>
+            <zone x="14" y="15" nvt="0" danger="3"/>
+            <zone x="15" y="15" nvt="0" tag="5" danger="3"/>
+            <zone x="16" y="15" nvt="0" danger="3"/>
+            <zone x="17" y="15" nvt="0" danger="3"/>
+            <zone x="18" y="15" nvt="0" danger="3"/>
+            <zone x="19" y="15" nvt="0" danger="3"/>
+            <zone x="20" y="15" nvt="0" danger="3"/>
+            <zone x="21" y="15" nvt="0" danger="3"/>
+            <zone x="0" y="16" nvt="1"/>
+            <zone x="1" y="16" nvt="0" danger="3">
+                <building name="Dilapidated Building" type="49" dig="0">
+                    <![CDATA[A nice office building where people used to get on with their work, starting early in the morning, surrounded by anonymous colleagues, trying to finish who knows what project but with one clear goal : their own survival. You think to yourself that maybe things haven't really changed all that much...]]></building>
+            </zone>
+            <zone x="2" y="16" nvt="0" danger="3"/>
+            <zone x="3" y="16" nvt="0" danger="3"/>
+            <zone x="4" y="16" nvt="0" tag="3" danger="3"/>
+            <zone x="5" y="16" nvt="0" danger="3"/>
+            <zone x="6" y="16" nvt="0" danger="3"/>
+            <zone x="7" y="16" nvt="0" danger="3"/>
+            <zone x="8" y="16" nvt="0" tag="5" danger="3"/>
+            <zone x="9" y="16" nvt="0" tag="5" danger="3"/>
+            <zone x="10" y="16" nvt="0" tag="5" danger="3"/>
+            <zone x="11" y="16" nvt="0" tag="5" danger="3">
+                <building name="Citizen's Home" type="20" dig="0">
+                    <![CDATA[This was home to a citizen who decided to settle down outside the town, thinking they would survive for longer unaffected by the quarrels and betrayals inherent in town life. Half of their corpse is still in the living room.]]></building>
+            </zone>
+            <zone x="12" y="16" nvt="0" tag="5" danger="3"/>
+            <zone x="13" y="16" nvt="0" tag="5" danger="3"/>
+            <zone x="14" y="16" nvt="0" tag="5" danger="3"/>
+            <zone x="15" y="16" nvt="0" tag="5" danger="3"/>
+            <zone x="16" y="16" nvt="0" danger="3"/>
+            <zone x="17" y="16" nvt="0" danger="3"/>
+            <zone x="18" y="16" nvt="0" tag="5" danger="3"/>
+            <zone x="19" y="16" nvt="0" tag="5" danger="3"/>
+            <zone x="20" y="16" nvt="0" danger="3"/>
+            <zone x="21" y="16" nvt="0" danger="3"/>
+            <zone x="0" y="17" nvt="1"/>
+            <zone x="1" y="17" nvt="0" danger="3"/>
+            <zone x="2" y="17" nvt="0" tag="4" danger="3"/>
+            <zone x="3" y="17" nvt="0" tag="4" danger="3"/>
+            <zone x="4" y="17" nvt="0" tag="4" danger="3"/>
+            <zone x="5" y="17" nvt="0" tag="5" danger="3"/>
+            <zone x="6" y="17" nvt="0" tag="5" danger="3"/>
+            <zone x="7" y="17" nvt="0" tag="5" danger="3"/>
+            <zone x="8" y="17" nvt="0" tag="5" danger="3"/>
+            <zone x="9" y="17" nvt="0" tag="5" danger="3"/>
+            <zone x="10" y="17" nvt="0" tag="5" danger="3"/>
+            <zone x="11" y="17" nvt="0"/>
+            <zone x="12" y="17" nvt="0" tag="5" danger="3"/>
+            <zone x="13" y="17" nvt="0" tag="5" danger="3"/>
+            <zone x="14" y="17" nvt="0" tag="5" danger="3"/>
+            <zone x="15" y="17" nvt="0" tag="5" danger="3"/>
+            <zone x="16" y="17" nvt="0" danger="3"/>
+            <zone x="17" y="17" nvt="0" tag="5" danger="3"/>
+            <zone x="18" y="17" nvt="0" danger="3"/>
+            <zone x="19" y="17" nvt="0" danger="3"/>
+            <zone x="20" y="17" nvt="0" danger="3">
+                <building name="Scottish Smith's Superstore" type="41" dig="0">
+                    <![CDATA[One of the many Smith's Superstores that proliferated around the year 2010 then disappeared... specialising in making things as cheap as possible, you should be able to find whatever you need here. Whether you're potless or just being tighter than two coats of paint, shop at Smiths !]]></building>
+            </zone>
+            <zone x="21" y="17" nvt="0" danger="3"/>
+            <zone x="0" y="18" nvt="1"/>
+            <zone x="1" y="18" nvt="0" danger="3"/>
+            <zone x="2" y="18" nvt="0" danger="3"/>
+            <zone x="3" y="18" nvt="0" danger="3"/>
+            <zone x="4" y="18" nvt="0" danger="3"/>
+            <zone x="5" y="18" nvt="0" danger="3"/>
+            <zone x="6" y="18" nvt="0" tag="5" danger="3"/>
+            <zone x="7" y="18" nvt="0" tag="5" danger="3"/>
+            <zone x="8" y="18" nvt="0" tag="5" danger="3"/>
+            <zone x="9" y="18" nvt="0" tag="5" danger="3"/>
+            <zone x="10" y="18" nvt="0" tag="5" danger="2"/>
+            <zone x="11" y="18" nvt="0" tag="5" danger="2"/>
+            <zone x="12" y="18" nvt="0" tag="5" danger="3"/>
+            <zone x="13" y="18" nvt="0" tag="5" danger="3"/>
+            <zone x="14" y="18" nvt="0" tag="5" danger="3"/>
+            <zone x="15" y="18" nvt="0" danger="3"/>
+            <zone x="16" y="18" nvt="0" tag="5" danger="3"/>
+            <zone x="17" y="18" nvt="0" danger="3"/>
+            <zone x="18" y="18" nvt="0" danger="3"/>
+            <zone x="19" y="18" nvt="0" danger="3"/>
+            <zone x="20" y="18" nvt="0" danger="3"/>
+            <zone x="21" y="18" nvt="0" danger="3"/>
+            <zone x="0" y="19" nvt="1"/>
+            <zone x="1" y="19" nvt="0" danger="3"/>
+            <zone x="2" y="19" nvt="0" danger="3"/>
+            <zone x="3" y="19" nvt="0" danger="3"/>
+            <zone x="4" y="19" nvt="0" danger="3"/>
+            <zone x="5" y="19" nvt="0" danger="3"/>
+            <zone x="6" y="19" nvt="0" danger="3"/>
+            <zone x="7" y="19" nvt="0" danger="3"/>
+            <zone x="8" y="19" nvt="0" tag="5" danger="3"/>
+            <zone x="9" y="19" nvt="0" tag="5" danger="3"/>
+            <zone x="10" y="19" nvt="0" tag="5" danger="2"/>
+            <zone x="11" y="19" nvt="0" tag="5" danger="3"/>
+            <zone x="12" y="19" nvt="0" tag="5" danger="2"/>
+            <zone x="13" y="19" nvt="0" tag="5" danger="3"/>
+            <zone x="14" y="19" nvt="0" tag="5" danger="3"/>
+            <zone x="15" y="19" nvt="0" danger="3"/>
+            <zone x="16" y="19" nvt="0" danger="3"/>
+            <zone x="17" y="19" nvt="0" danger="3"/>
+            <zone x="18" y="19" nvt="0" danger="3"/>
+            <zone x="19" y="19" nvt="0" danger="3"/>
+            <zone x="20" y="19" nvt="0" danger="3"/>
+            <zone x="21" y="19" nvt="0" danger="3"/>
+            <zone x="0" y="20" nvt="1"/>
+            <zone x="1" y="20" nvt="0" danger="3"/>
+            <zone x="2" y="20" nvt="0" danger="3"/>
+            <zone x="3" y="20" nvt="0" danger="3"/>
+            <zone x="4" y="20" nvt="0" danger="3"/>
+            <zone x="5" y="20" nvt="0" danger="3"/>
+            <zone x="6" y="20" nvt="0" danger="3"/>
+            <zone x="7" y="20" nvt="0" danger="3"/>
+            <zone x="8" y="20" nvt="0" tag="5" danger="3"/>
+            <zone x="9" y="20" nvt="0" tag="5" danger="3"/>
+            <zone x="10" y="20" nvt="0" tag="5" danger="2"/>
+            <zone x="11" y="20" nvt="0" tag="5" danger="1"/>
+            <zone x="12" y="20" nvt="0" tag="5" danger="2"/>
+            <zone x="13" y="20" nvt="0" tag="5" danger="3"/>
+            <zone x="14" y="20" nvt="0" danger="2"/>
+            <zone x="15" y="20" nvt="0" danger="3"/>
+            <zone x="16" y="20" nvt="0" danger="3"/>
+            <zone x="17" y="20" nvt="0" danger="3"/>
+            <zone x="18" y="20" nvt="0" danger="3"/>
+            <zone x="19" y="20" nvt="0" danger="3"/>
+            <zone x="20" y="20" nvt="0" danger="3"/>
+            <zone x="21" y="20" nvt="0" danger="3"/>
+            <zone x="0" y="21" nvt="1" tag="4"/>
+            <zone x="1" y="21" nvt="1"/>
+            <zone x="2" y="21" nvt="0" danger="3"/>
+            <zone x="3" y="21" nvt="0" danger="3"/>
+            <zone x="4" y="21" nvt="0" danger="3"/>
+            <zone x="5" y="21" nvt="0" danger="3"/>
+            <zone x="6" y="21" nvt="0" danger="3"/>
+            <zone x="7" y="21" nvt="0" danger="3"/>
+            <zone x="8" y="21" nvt="0" danger="3"/>
+            <zone x="9" y="21" nvt="0" tag="5" danger="3"/>
+            <zone x="10" y="21" nvt="0"/>
+            <zone x="11" y="21" nvt="0" tag="5"/>
+            <zone x="12" y="21" nvt="0" tag="5" danger="1"/>
+            <zone x="13" y="21" nvt="0" tag="5" danger="3"/>
+            <zone x="14" y="21" nvt="0" danger="2"/>
+            <zone x="15" y="21" nvt="0" danger="3"/>
+            <zone x="16" y="21" nvt="0" danger="3"/>
+            <zone x="17" y="21" nvt="0" danger="3"/>
+            <zone x="18" y="21" nvt="0" danger="3"/>
+            <zone x="19" y="21" nvt="0" danger="3"/>
+            <zone x="20" y="21" nvt="0" danger="3"/>
+            <zone x="0" y="22" nvt="1"/>
+            <zone x="1" y="22" nvt="1"/>
+            <zone x="2" y="22" nvt="0" danger="3"/>
+            <zone x="3" y="22" nvt="0" danger="3">
+                <building name="Old Police Station" type="8" dig="0">
+                    <![CDATA[This imposing building stretches over several hundred metres. It is split into numerous rooms but many of them collapsed a long time ago. If you look at the number of bullet holes and improvised barricades, it seems that this police station was the scene of some particularly violent confrontations.]]></building>
+            </zone>
+            <zone x="4" y="22" nvt="0" tag="5" danger="3"/>
+            <zone x="5" y="22" nvt="0" danger="3"/>
+            <zone x="6" y="22" nvt="0" danger="3"/>
+            <zone x="7" y="22" nvt="0" danger="3"/>
+            <zone x="8" y="22" nvt="0" danger="3"/>
+            <zone x="9" y="22" nvt="0" danger="2"/>
+            <zone x="10" y="22" nvt="0" danger="2"/>
+            <zone x="11" y="22" nvt="0"/>
+            <zone x="12" y="22" nvt="0" tag="5" danger="1"/>
+            <zone x="13" y="22" nvt="0" tag="5" danger="2"/>
+            <zone x="14" y="22" nvt="0" tag="5" danger="3"/>
+            <zone x="15" y="22" nvt="0" danger="3"/>
+            <zone x="16" y="22" nvt="0" danger="3"/>
+            <zone x="17" y="22" nvt="0" danger="3"/>
+            <zone x="18" y="22" nvt="0" danger="3"/>
+            <zone x="19" y="22" nvt="0" danger="3"/>
+            <zone x="20" y="22" nvt="0" danger="3"/>
+            <zone x="3" y="23" nvt="0" danger="3"/>
+            <zone x="4" y="23" nvt="0" danger="3"/>
+            <zone x="5" y="23" nvt="0" danger="3"/>
+            <zone x="6" y="23" nvt="0" danger="3"/>
+            <zone x="7" y="23" nvt="0" danger="3"/>
+            <zone x="8" y="23" nvt="0" danger="3"/>
+            <zone x="9" y="23" nvt="0" danger="3"/>
+            <zone x="10" y="23" nvt="0" danger="2"/>
+            <zone x="11" y="23" nvt="0" tag="5"/>
+            <zone x="12" y="23" nvt="0"/>
+            <zone x="13" y="23" nvt="0" danger="2"/>
+            <zone x="14" y="23" nvt="0" tag="5" danger="3"/>
+            <zone x="15" y="23" nvt="0" danger="2"/>
+            <zone x="16" y="23" nvt="0" danger="3"/>
+            <zone x="17" y="23" nvt="0" danger="3"/>
+            <zone x="18" y="23" nvt="0" danger="3"/>
+            <zone x="19" y="23" nvt="0" danger="3"/>
+            <zone x="4" y="24" nvt="0" danger="3"/>
+            <zone x="5" y="24" nvt="0" danger="3"/>
+            <zone x="6" y="24" nvt="0" danger="3"/>
+            <zone x="7" y="24" nvt="0" danger="3"/>
+            <zone x="8" y="24" nvt="0" danger="3"/>
+            <zone x="9" y="24" nvt="0" danger="3"/>
+            <zone x="10" y="24" nvt="0" danger="1"/>
+            <zone x="11" y="24" nvt="0"/>
+            <zone x="12" y="24" nvt="0"/>
+            <zone x="13" y="24" nvt="0" danger="2"/>
+            <zone x="14" y="24" nvt="0" danger="2"/>
+            <zone x="15" y="24" nvt="0" danger="3"/>
+            <zone x="16" y="24" nvt="0" danger="3"/>
+            <zone x="17" y="24" nvt="0" danger="3"/>
+            <zone x="18" y="24" nvt="0" danger="3"/>
+        </map>
+        <upgrades total="12">
+            <up name="Pump" level="3" buildingId="1011">
+                <![CDATA[30 rations of water are added to the well (one time only).]]></up>
+            <up name="Great Pit" level="5" buildingId="1023">
+                <![CDATA[The Great Pit gives an additional 160 defence points.]]></up>
+            <up name="Watchtower" level="4" buildingId="1050">
+                <![CDATA[Zombies within 10 zones are detected + Allows citizens within 1 km of the town to return without using any APs.]]></up>
+        </upgrades>
+        <estimations/>
+    </data>
+</hordes>

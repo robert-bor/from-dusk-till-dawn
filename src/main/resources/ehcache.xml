@@ -1,0 +1,30 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="ehcache.xsd">
+
+    <!-- http://ehcache.org/apidocs/net/sf/ehcache/config/CacheConfiguration.html -->
+
+    <defaultCache eternal="true" overflowToOffHeap="true"/>
+
+    <cache
+        name="info"
+        maxElementsInMemory="30"
+        memoryStoreEvictionPolicy="LRU"
+        statistics="true">
+    </cache>
+
+    <cache
+        name="distinctions"
+        maxElementsInMemory="200"
+        memoryStoreEvictionPolicy="LRU"
+        timeToLiveSeconds="43200"
+        statistics="true">
+    </cache>
+
+    <cache
+        name="cities"
+        maxElementsInMemory="1000"
+        memoryStoreEvictionPolicy="LRU"
+        statistics="true">
+    </cache>
+
+</ehcache>

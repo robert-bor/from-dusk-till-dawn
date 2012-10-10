@@ -1,0 +1,76 @@
+Line up:
+1. Set the options to their default (ie, remove all cookies, read from the cookies and repaint the lot)
+2. Original markers (set as option, default: off)
+3. Hover over activity rating, showing actual activity (reads/writes)
+4. Have another view -> default view gives undiscovered/nvt as they do now; new view makes undiscovered invisible and gives nvt normal zone status with opacity
+5. Put in die2nite wiki link to items + hover description
+6. Zone activity
+7. Show number of items in a zone -- put this in a radio button group with zombie numbers
+8. Mark possible buildings
+9. Have a green check marker if there is certainty that the zone has recently been updated. Perhaps also do something with when the update took place?
+10. Update zone on loading map -- worthwhile?
+11. There was a player with a MapMatrix/OOB error (see stickies)
+12. Have radar and wind directions up at the same time
+13. Have individual wind directions as separate option (idea Dkarba)
+14. Preload images
+15. Sprite maps for:
+    * zone images
+16. BUG: Make sure that it is possible to set 0 zombies in undiscovered (check if problem is broader than this)
+17. BUG: Updating a zone with upgraded map, makes it rely on the cached XML feed, not on the secure update. Data is saved correctly, however
+18. Zombie - range => "1) Inputting a range for zombie count (Scout Sense), ex: 2-4" (Reppin)
+19. Persist constructions tab showing materials or not (from Mogman)
+
+"My plans for the moment:
+* tagging"
+
+DATABASE
+1. Replace bigints with ints wherever possible
+
+Bugs:
+* CHECK - couple the keys to cities; when a regular update takes place, read from the city file
+
+Nice to have:
+* with upgraded map, disallow adjusting the number of zombies
+
+Persistence
+* reuse part of production Spring application context in test environment
+
+====
+
+Feedback from initial users =>
+
+Ken:
+DONE * building depletion toggle did not work
+DONE * missing item manipulation
+
+Aiv:
+DONE expected hover, needed to click
+* expected number of zombies shown on the map
+* likes the bookmarking
+
+Jadz/Gib:
+* looks good on IE8
+
+Andaho:
+* no overview - covered
+
+Isaac:
+* make usage of cursor keys clearer / also town == bank
+V hover text as an option
+V search function
+* view other town's data
+* expand the map view
+V timeline of user logins/updates
+* features off the app in a text file
+* un-ban request system
+V make hover always appear on the right
+V get rid of the 'sand' background and replace with something which is easier on the eyes
+--
+V copyright footer
+
+====
+
+https://addons.mozilla.org/en-US/firefox /addon/die2nite-agent/
+
+
+* show all items in zone (more on this later)

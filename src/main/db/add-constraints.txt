@@ -1,0 +1,23 @@
+* Execute SQL query:
+
+select city_id,x,y from zones group by city_id, x, y having count(*) > 1;
+
+* Execute this regex four times on the body results of the SQL query
+
+\|[ ]+([0-9]+) \|[ ]+([0-9-]+) \|[ ]+([0-9-]+) \|
+delete from last_user_activity where zone_id in (select id from zones where city_id=$1 and x=$2 and y=$3);
+
+\|[ ]+([0-9]+) \|[ ]+([0-9-]+) \|[ ]+([0-9-]+) \|
+delete from user_activity where zone_id in (select id from zones where city_id=$1 and x=$2 and y=$3);
+
+\|[ ]+([0-9]+) \|[ ]+([0-9-]+) \|[ ]+([0-9-]+) \|
+delete from items where zone_id in (select id from zones where city_id=$1 and x=$2 and y=$3);
+
+\|[ ]+([0-9]+) \|[ ]+([0-9-]+) \|[ ]+([0-9-]+) \|
+delete from zones where city_id=$1 and x=$2 and y=$3;
+
+* Execute the generated delete statements (this might take awhile)
+
+* Add the unique constraint
+
+alter table zones add constraint unique_zones_city_id_x_y unique (city_id,x,y);

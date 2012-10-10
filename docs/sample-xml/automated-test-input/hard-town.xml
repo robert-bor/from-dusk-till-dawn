@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hordes xmlns:dc="http://purl.org/dc/elements/1.1" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <headers link="http://www.die2nite.com/xml" iconurl="http://data.die2nite.com/gfx/icons/" secure="1"
+             author="Motion Twin &lt;http://www.motion-twin.com&gt;" language="en" version="2.171"
+             avatarurl="http://imgup.motion-twin.com/" generator="haxe">
+        <owner>
+            <citizen dead="0" hero="0" name="Mordechia" avatar="hordes/5/7/640169e1_1668.jpg" x="4" y="19" id="1668"
+                     ban="0" job="basic" out="1" baseDef="1"><![CDATA[]]></citizen>
+        </owner>
+        <game days="4" quarantine="0" datetime="2011-12-04 10:01:15" id="17678"/>
+    </headers>
+    <data cache-date="2011-12-04 10:01:15" cache-fast="1">
+        <city city="The space of ever morning" door="1" hard="1" water="12" chaos="0" devast="0" x="7" y="14">
+            <news z="37" def="61">
+                <content>
+                    <![CDATA[<p>Abandonned in the desert, the 6 citizens who went outside yesterday will surely never return.</p><p>Apart from that, no deaths tonight. All is well. However, I <strong>guarantee</strong> you the zombies will be  <strong>starving</strong> tonight: I don't fancy our chances...</p>]]></content>
+            </news>
+        </city>
+        <bank>
+            <item name="Valium Shot" count="2" id="28" cat="Drug" img="xanax" broken="0"/>
+            <item name="Pathetic Penknife" count="1" id="18" cat="Weapon" img="small_knife" broken="0"/>
+            <item name="Kwik-Fix" count="2" id="184" cat="Misc" img="repair_one" broken="0"/>
+            <item name="Staff" count="1" id="15" cat="Weapon" img="staff" broken="0"/>
+            <item name="Scrap Metal" count="1" id="161" cat="Rsc" img="metal_bad" broken="0"/>
+            <item name="Sheet of Plywood" count="1" id="231" cat="Misc" img="out_def" broken="0"/>
+            <item name="Twinoid 500mg" count="1" id="89" cat="Drug" img="drug_hero" broken="0"/>
+            <item name="Battery Launcher 1-ITF (empty)" count="2" id="117" cat="Weapon" img="pilegun_empty" broken="0"/>
+            <item name="Electronic component" count="2" id="101" cat="Rsc" img="electro" broken="0"/>
+            <item name="Crate Lid" count="1" id="178" cat="Misc" img="wood_plate_part" broken="0"/>
+            <item name="Vodka Marinostov" count="2" id="69" cat="Food" img="vodka" broken="0"/>
+            <item name="Plastic Bag" count="6" id="76" cat="Weapon" img="grenade_empty" broken="0"/>
+            <item name="Rotting Log" count="6" id="162" cat="Rsc" img="wood_bad" broken="0"/>
+            <item name="Twisted Plank" count="7" id="59" cat="Rsc" img="wood2" broken="0"/>
+            <item name="Semtex" count="1" id="73" cat="Rsc" img="explo" broken="0"/>
+            <item name="Radius Radar Beacon" count="1" id="125" cat="Misc" img="tagger" broken="0"/>
+            <item name="Compact Detonator" count="4" id="132" cat="Rsc" img="deto" broken="0"/>
+            <item name="Solid Wooden Board" count="4" id="179" cat="Armor" img="wood_plate" broken="0"/>
+            <item name="Wrought Iron" count="4" id="60" cat="Rsc" img="metal" broken="0"/>
+            <item name="Opened packet of Cigarettes" count="1" id="210" cat="Misc" img="cigs" broken="0"/>
+            <item name="Box of Matches" count="11" id="26" cat="Misc" img="lights" broken="0"/>
+            <item name="Meaty Bone" count="2" id="157" cat="Food" img="bone_meat" broken="0"/>
+            <item name="Burnt out Torch" count="1" id="234" cat="Weapon" img="torch_off" broken="0"/>
+            <item name="Unshaped Concrete Blocks" count="1" id="134" cat="Armor" img="concrete_wall" broken="0"/>
+            <item name="Radio Cassette Player (no battery)" count="8" id="104" cat="Misc" img="radio_off" broken="0"/>
+            <item name="Water Pistol (empty)" count="1" id="111" cat="Weapon" img="watergun_empty" broken="0"/>
+            <item name="Copper Pipe" count="3" id="84" cat="Rsc" img="tube" broken="0"/>
+            <item name="Broken Human Bone" count="1" id="158" cat="Weapon" img="bone" broken="0"/>
+            <item name="Duct Tape" count="6" id="81" cat="Rsc" img="rustine" broken="0"/>
+            <item name="Unlabelled Drug" count="1" id="135" cat="Drug" img="drug_random" broken="0"/>
+            <item name="Battery" count="11" id="2" cat="Rsc" img="pile" broken="0"/>
+            <item name="Sheet Metal" count="3" id="64" cat="Armor" img="plate" broken="0"/>
+            <item name="Old Washing Machine" count="1" id="186" cat="Furniture" img="machine_1" broken="1"/>
+            <item name="Water Ration" count="4" id="1" cat="Food" img="water" broken="0"/>
+            <item name="Huge Snake (Ophiophagus trouser)" count="1" id="47" cat="Misc" img="pet_snake" broken="0"/>
+            <item name="Patchwork Beam" count="1" id="159" cat="Rsc" img="wood_beam" broken="0"/>
+            <item name="Flash Powder" count="2" id="173" cat="Misc" img="powder" broken="0"/>
+            <item name="Giant Rat" count="2" id="44" cat="Misc" img="pet_rat" broken="0"/>
+            <item name="Anabolic Steroids" count="1" id="51" cat="Drug" img="drug" broken="0"/>
+            <item name="Paracetoid 7g" count="1" id="136" cat="Drug" img="disinfect" broken="0"/>
+            <item name="Handful of nuts and bolts" count="1" id="41" cat="Rsc" img="meca_parts" broken="0"/>
+            <item name="Mattress" count="2" id="31" cat="Armor" img="bed" broken="0"/>
+            <item name="Screwdriver" count="1" id="14" cat="Weapon" img="screw" broken="0"/>
+            <item name="Ness-Quick Weedkiller" count="2" id="137" cat="Misc" img="digger" broken="0"/>
+            <item name="Incomplete Deck of Cards" count="1" id="151" cat="Misc" img="cards" broken="0"/>
+            <item name="Old Door" count="1" id="107" cat="Armor" img="door" broken="0"/>
+            <item name="Tasty Homemade Dish" count="1" id="198" cat="Food" img="dish_tasty" broken="0"/>
+            <item name="Wonky Shopping Trolley" count="1" id="85" cat="Misc" img="cart_part" broken="0"/>
+            <item name="« Pine Fresh » Smoke Bomb" count="2" id="299" cat="Misc" img="smoke_bomb" broken="0"/>
+            <item name="Full Jerrycan" count="11" id="58" cat="Misc" img="jerrycan" broken="0"/>
+            <item name="Trestle" count="1" id="169" cat="Armor" img="trestle" broken="0"/>
+        </bank>
+        <expeditions/>
+        <citizens>
+            <citizen dead="0" hero="1" name="albae" avatar="hordes/f/1/0dbc3a31_172208.jpg" x="7" y="14" id="172208"
+                     ban="0" job="eclair" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="BlackJack" avatar="hordes/0/a/5f484b77_30326.jpg" x="7" y="14" id="30326"
+                     ban="0" job="basic" out="0" baseDef="3"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="1" name="Blazon" avatar="hordes/0/c/73810314_14754.jpg" x="7" y="14" id="14754"
+                     ban="0" job="hunter" out="0" baseDef="1"><![CDATA[Clandestine chemist]]></citizen>
+            <citizen dead="0" hero="0" name="DragonOfpie" avatar="hordes/8/4/705a5ea9_12704.jpg" x="7" y="14" id="12704"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="1" name="EXIAN" avatar="hordes/e/8/328ef25d_63468.jpg" x="7" y="14" id="63468"
+                     ban="0" job="tech" out="0" baseDef="1"><![CDATA[I'm a HARDCORE!!! COOK!!!]]></citizen>
+            <citizen dead="0" hero="1" name="fooley" avatar="hordes/0/a/11432c3f_24229.jpg" x="7" y="14" id="24229"
+                     ban="0" job="guardian" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="ilpxd" avatar="hordes/5/3/775fd231_156931.jpg" x="7" y="14" id="156931"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="imcool" avatar="hordes/e/9/54efd051_44891.jpg" x="7" y="14" id="44891"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="joe121" x="7" y="14" id="148029" ban="0" job="basic" out="0" baseDef="1">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="LeftWingIceMan" x="7" y="14" id="150608" ban="0" job="basic" out="0"
+                     baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Lenkento" x="7" y="14" id="75033" ban="0" job="basic" out="0" baseDef="1">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="marianzsu" avatar="hordes/a/e/b51eb3c2_24587.jpg" x="9" y="12" id="24587"
+                     ban="0" job="basic" out="1" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Mordechia" avatar="hordes/5/7/640169e1_1668.jpg" x="4" y="19" id="1668"
+                     ban="0" job="basic" out="1" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="1" name="rebel14" x="7" y="14" id="60259" ban="0" job="tech" out="0" baseDef="1">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="ruimarques" x="7" y="14" id="33017" ban="0" job="basic" out="0"
+                     baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Soapy" x="7" y="14" id="159777" ban="0" job="basic" out="0" baseDef="1">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Sythril" avatar="hordes/c/7/433270ee_169711.jpg" x="7" y="14" id="169711"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="1" name="Tepx" x="7" y="14" id="24431" ban="0" job="tamer" out="0" baseDef="1">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="thepirateman" avatar="hordes/9/0/5b26c94f_181899.jpg" x="7" y="14"
+                     id="181899" ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="tjtr12" avatar="hordes/9/4/061e7be0_54112.jpg" x="7" y="14" id="54112"
+                     ban="0" job="" out="0" baseDef="3"><![CDATA[hardcore]]></citizen>
+            <citizen dead="0" hero="0" name="tood33" x="7" y="14" id="71931" ban="0" job="basic" out="0" baseDef="0">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Toolbox" x="7" y="14" id="178538" ban="0" job="basic" out="0" baseDef="1">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Tuju" avatar="hordes/3/d/cb9f1367_13743.jpg" x="7" y="14" id="13743"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="wartrooper" avatar="hordes/8/4/77595d15_80136.jpg" x="7" y="14" id="80136"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[HARDCORE BABY!!!111112!!1!"131!!]]></citizen>
+        </citizens>
+        <cadavers>
+            <cadaver name="cheetos1150" dtype="5" id="127926" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="cowardsd13" dtype="5" id="70214" day="1">
+                <msg><![CDATA[oopsie, sorry guys, at least I died HARDCORE!!!]]></msg>
+            </cadaver>
+            <cadaver name="DannyTheKiller" dtype="5" id="7254" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="Eion" dtype="5" id="36388" day="3">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="Ironwithin" dtype="5" id="94427" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="Killir" dtype="5" id="150675" day="2">
+                <msg><![CDATA[Noooooooooooooo ! camping is HARDCORE !!!]]></msg>
+            </cadaver>
+            <cadaver name="kiyono" dtype="5" id="93629" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="Logicz" dtype="5" id="53644" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="MK242" dtype="1" id="139508" day="3">
+                <cleanup type="water" user="Blazon"/>
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="Munches" dtype="5" id="118075" day="3">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="PaperYe" dtype="5" id="166859" day="3">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="RonJeremyLives" dtype="5" id="118689" day="3">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="SgtCayir" dtype="1" id="139312" day="3">
+                <cleanup type="garbage" user="DragonOfpie"/>
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="Sureiya" dtype="5" id="29207" day="2">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="TintedGrey" dtype="5" id="3061" day="3">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="WeissHaz" dtype="5" id="171221" day="3">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+        </cadavers>
+        <map hei="25" wid="25">
+            <zone x="7" y="5" nvt="1"/>
+            <zone x="7" y="6" nvt="1"/>
+            <zone x="6" y="7" nvt="1"/>
+            <zone x="7" y="7" nvt="1"/>
+            <zone x="8" y="7" nvt="1"/>
+            <zone x="5" y="8" nvt="0" danger="2"/>
+            <zone x="6" y="8" nvt="0"/>
+            <zone x="7" y="8" nvt="0"/>
+            <zone x="8" y="8" nvt="0"/>
+            <zone x="9" y="8" nvt="0"/>
+            <zone x="10" y="8" nvt="1"/>
+            <zone x="3" y="9" nvt="0" danger="3">
+                <building name="Buried building" type="-1" dig="9"/>
+            </zone>
+            <zone x="4" y="9" nvt="0" danger="2"/>
+            <zone x="5" y="9" nvt="0" danger="2"/>
+            <zone x="6" y="9" nvt="0" danger="3"/>
+            <zone x="7" y="9" nvt="0" tag="5"/>
+            <zone x="8" y="9" nvt="0" tag="5"/>
+            <zone x="9" y="9" nvt="0"/>
+            <zone x="10" y="9" nvt="0"/>
+            <zone x="11" y="9" nvt="0"/>
+            <zone x="2" y="10" nvt="0" danger="3"/>
+            <zone x="3" y="10" nvt="0" danger="3"/>
+            <zone x="4" y="10" nvt="0" danger="3">
+                <building name="Buried building" type="-1" dig="4"/>
+            </zone>
+            <zone x="5" y="10" nvt="0" danger="3"/>
+            <zone x="6" y="10" nvt="0" danger="2"/>
+            <zone x="7" y="10" nvt="0" tag="5"/>
+            <zone x="8" y="10" nvt="0"/>
+            <zone x="9" y="10" nvt="0"/>
+            <zone x="10" y="10" nvt="0"/>
+            <zone x="11" y="10" nvt="0"/>
+            <zone x="12" y="10" nvt="0"/>
+            <zone x="2" y="11" nvt="0" danger="3"/>
+            <zone x="3" y="11" nvt="0" danger="2"/>
+            <zone x="4" y="11" nvt="0" danger="3"/>
+            <zone x="5" y="11" nvt="0" danger="1"/>
+            <zone x="6" y="11" nvt="0"/>
+            <zone x="7" y="11" nvt="0"/>
+            <zone x="8" y="11" nvt="0"/>
+            <zone x="9" y="11" nvt="0"/>
+            <zone x="10" y="11" nvt="0"/>
+            <zone x="11" y="11" nvt="0"/>
+            <zone x="12" y="11" nvt="0"/>
+            <zone x="1" y="12" nvt="0" danger="3"/>
+            <zone x="2" y="12" nvt="0" danger="2"/>
+            <zone x="3" y="12" nvt="0" danger="3"/>
+            <zone x="4" y="12" nvt="0" tag="3">
+                <building name="Cosmetics Lab" type="6" dig="0">
+                    <![CDATA[This depressing building once served as an animal testing facility (rabbits doing mid-terms etc...). It smells of camphor, ether and rotting carcasses. And you've not even gone inside yet... ]]></building>
+            </zone>
+            <zone x="5" y="12" nvt="0" danger="2"/>
+            <zone x="6" y="12" nvt="0" tag="5"/>
+            <zone x="7" y="12" nvt="0" tag="5"/>
+            <zone x="8" y="12" nvt="0" tag="5"/>
+            <zone x="9" y="12" nvt="0"/>
+            <zone x="10" y="12" nvt="0"/>
+            <zone x="11" y="12" nvt="0" danger="2"/>
+            <zone x="12" y="12" nvt="0"/>
+            <zone x="13" y="12" nvt="0" danger="3"/>
+            <zone x="1" y="13" nvt="0" danger="2"/>
+            <zone x="2" y="13" nvt="0" danger="2"/>
+            <zone x="3" y="13" nvt="0" danger="1"/>
+            <zone x="4" y="13" nvt="0"/>
+            <zone x="5" y="13" nvt="0" danger="2"/>
+            <zone x="6" y="13" nvt="0" tag="5"/>
+            <zone x="7" y="13" nvt="0" tag="5"/>
+            <zone x="8" y="13" nvt="0" tag="5"/>
+            <zone x="9" y="13" nvt="0" tag="5"/>
+            <zone x="10" y="13" nvt="0" tag="5" danger="1"/>
+            <zone x="11" y="13" nvt="0" danger="2"/>
+            <zone x="12" y="13" nvt="0" danger="2"/>
+            <zone x="13" y="13" nvt="0" danger="2"/>
+            <zone x="14" y="13" nvt="1"/>
+            <zone x="1" y="14" nvt="0" danger="1"/>
+            <zone x="2" y="14" nvt="0" tag="5" danger="1"/>
+            <zone x="3" y="14" nvt="0" tag="5"/>
+            <zone x="4" y="14" nvt="0" tag="5"/>
+            <zone x="5" y="14" nvt="0" tag="5"/>
+            <zone x="6" y="14" nvt="0" tag="5"/>
+            <zone x="7" y="14" nvt="0"/>
+            <zone x="8" y="14" nvt="0" tag="5"/>
+            <zone x="9" y="14" nvt="0" tag="5"/>
+            <zone x="10" y="14" nvt="0" tag="5" danger="2"/>
+            <zone x="11" y="14" nvt="0" danger="2"/>
+            <zone x="12" y="14" nvt="0" tag="5" danger="2"/>
+            <zone x="13" y="14" nvt="0" danger="3"/>
+            <zone x="14" y="14" nvt="1"/>
+            <zone x="1" y="15" nvt="0"/>
+            <zone x="2" y="15" nvt="0"/>
+            <zone x="3" y="15" nvt="0"/>
+            <zone x="4" y="15" nvt="0" tag="5"/>
+            <zone x="5" y="15" nvt="0"/>
+            <zone x="6" y="15" nvt="0" tag="5"/>
+            <zone x="7" y="15" nvt="0" tag="5" danger="1"/>
+            <zone x="8" y="15" nvt="0" tag="5" danger="2"/>
+            <zone x="9" y="15" nvt="0" tag="5" danger="1"/>
+            <zone x="10" y="15" nvt="0" tag="4" danger="1"/>
+            <zone x="11" y="15" nvt="0" tag="5" danger="2"/>
+            <zone x="12" y="15" nvt="0" tag="4" danger="1">
+                <building name="Water Processing Plant" type="21" dig="0">
+                    <![CDATA[This plant collects groundwater from the surrounding area and transfers it into enormous concrete reservoirs. The filtration system seems to be broken, but you should be able to recover the contaminated water that is stored here... ]]></building>
+            </zone>
+            <zone x="13" y="15" nvt="0" tag="5" danger="1"/>
+            <zone x="14" y="15" nvt="0" tag="2" danger="2">
+                <building name="Scottish Smith's Superstore" type="41" dig="0">
+                    <![CDATA[One of the many Smith's Superstores that proliferated around the year 2010 then disappeared... specialising in making things as cheap as possible, you should be able to find whatever you need here. Whether you're potless or just being tighter than two coats of paint, shop at Smiths !]]></building>
+            </zone>
+            <zone x="15" y="15" nvt="1"/>
+            <zone x="16" y="15" nvt="1"/>
+            <zone x="17" y="15" nvt="1">
+                <building name="Dilapidated Building" type="49" dig="0">
+                    <![CDATA[A nice office building where people used to get on with their work, starting early in the morning, surrounded by anonymous colleagues, trying to finish who knows what project but with one clear goal : their own survival. You think to yourself that maybe things haven't really changed all that much...]]></building>
+            </zone>
+            <zone x="1" y="16" nvt="0" danger="2"/>
+            <zone x="2" y="16" nvt="0" danger="1"/>
+            <zone x="3" y="16" nvt="0" tag="5"/>
+            <zone x="4" y="16" nvt="0" tag="5"/>
+            <zone x="5" y="16" nvt="0" tag="3"/>
+            <zone x="6" y="16" nvt="0" tag="5"/>
+            <zone x="7" y="16" nvt="0" tag="5" danger="1"/>
+            <zone x="8" y="16" nvt="0" danger="3"/>
+            <zone x="9" y="16" nvt="0" danger="3"/>
+            <zone x="10" y="16" nvt="0" danger="2"/>
+            <zone x="11" y="16" nvt="0" danger="2"/>
+            <zone x="12" y="16" nvt="0" danger="2"/>
+            <zone x="13" y="16" nvt="0" danger="2"/>
+            <zone x="2" y="17" nvt="0" danger="2"/>
+            <zone x="3" y="17" nvt="0"/>
+            <zone x="4" y="17" nvt="0" tag="5"/>
+            <zone x="5" y="17" nvt="0"/>
+            <zone x="6" y="17" nvt="0"/>
+            <zone x="7" y="17" nvt="0" tag="5"/>
+            <zone x="8" y="17" nvt="0" danger="3"/>
+            <zone x="9" y="17" nvt="0" danger="3"/>
+            <zone x="10" y="17" nvt="0" danger="3"/>
+            <zone x="11" y="17" nvt="0" danger="3"/>
+            <zone x="12" y="17" nvt="0" danger="2"/>
+            <zone x="2" y="18" nvt="0" danger="2"/>
+            <zone x="3" y="18" nvt="0"/>
+            <zone x="4" y="18" nvt="0"/>
+            <zone x="5" y="18" nvt="0"/>
+            <zone x="6" y="18" nvt="0"/>
+            <zone x="7" y="18" nvt="0" tag="5"/>
+            <zone x="8" y="18" nvt="0" danger="2"/>
+            <zone x="9" y="18" nvt="0" danger="1">
+                <building name="Looted Supermarket" type="5" dig="0">
+                    <![CDATA[This hulking mass of metal and brick was probably a large shopping centre, swarming with activity and illuminated by a thousand lights. Today nothing swarms except the vermin and other crawling filth... There's no doubt though that it contains lots of goodies...]]></building>
+            </zone>
+            <zone x="10" y="18" nvt="0" danger="3"/>
+            <zone x="11" y="18" nvt="0" danger="2"/>
+            <zone x="12" y="18" nvt="0" danger="3"/>
+            <zone x="3" y="19" nvt="0" danger="1"/>
+            <zone x="4" y="19" nvt="0"/>
+            <zone x="5" y="19" nvt="0"/>
+            <zone x="6" y="19" nvt="0"/>
+            <zone x="7" y="19" nvt="0"/>
+            <zone x="8" y="19" nvt="0" danger="2"/>
+            <zone x="9" y="19" nvt="0" danger="2"/>
+            <zone x="10" y="19" nvt="0" danger="2"/>
+            <zone x="11" y="19" nvt="0" danger="3"/>
+            <zone x="4" y="20" nvt="1"/>
+            <zone x="5" y="20" nvt="0"/>
+            <zone x="6" y="20" nvt="0"/>
+            <zone x="7" y="20" nvt="0"/>
+            <zone x="8" y="20" nvt="0" danger="1"/>
+            <zone x="9" y="20" nvt="0"/>
+            <zone x="7" y="21" nvt="1"/>
+            <zone x="8" y="21" nvt="1"/>
+            <zone x="7" y="22" nvt="1"/>
+            <zone x="8" y="22" nvt="1"/>
+            <zone x="7" y="23" nvt="1"/>
+            <zone x="8" y="23" nvt="1"/>
+            <zone x="7" y="24" nvt="1"/>
+            <zone x="8" y="24" nvt="1"/>
+        </map>
+    </data>
+</hordes>

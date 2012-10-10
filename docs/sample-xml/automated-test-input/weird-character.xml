@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file resulted in the following error:
+
+SEVERE: Servlet.service() for servlet Spring Dispatcher Servlet threw exception
+java.io.CharConversionException: Not an ISO 8859-1 character: �
+	at javax.servlet.ServletOutputStream.print(ServletOutputStream.java:89)
+	at nl.d2n.controller.ZoneController.updateBasicInformation(ZoneController.java:71)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:185)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:126)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:100)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:502)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:465)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:863)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:792)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:851)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:767)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:636)
+
+This is probably the culprit: <building name="Motel 666� Dusk »" ...
+
+-->
+<hordes xmlns:dc="http://purl.org/dc/elements/1.1" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <headers link="http://www.die2nite.com/xml" iconurl="http://data.die2nite.com/gfx/icons/" secure="1"
+             author="Motion Twin &lt;http://www.motion-twin.com&gt;" language="en" version="2.171"
+             avatarurl="http://imgup.motion-twin.com/" generator="haxe">
+        <owner>
+            <citizen dead="0" hero="1" name="Shepherd" avatar="hordes/8/2/6f1e82bb_137.jpg" x="10" y="18" id="137"
+                     ban="0" job="eclair" out="1" baseDef="0"><![CDATA[]]></citizen>
+            <myZone dried="0" h="3" z="1">
+                <item name="Old Door" count="1" id="107" cat="Armor" img="door" broken="0"/>
+            </myZone>
+        </owner>
+        <game days="3" quarantine="0" datetime="2011-08-22 23:51:55" id="14541"/>
+    </headers>
+    <data cache-date="2011-08-22 23:51:55" cache-fast="1">
+        <city city="Dishonorable lagoon of tricks" door="1" water="32" chaos="0" devast="0" x="12" y="6">
+            <building name="Wall Upgrade v1" temporary="0" id="1010" img="small_wallimprove">
+                <![CDATA[Significantly increases the town's defences.]]></building>
+            <building name="Pump" temporary="0" id="1011" img="small_water">
+                <![CDATA[The pump unlocks all the construction projects involving water. It also increases the well's underground reserves considerably.]]></building>
+            <building name="Barbed Wire" temporary="0" parent="1010" id="1028" img="small_barbed">
+                <![CDATA[It's even a little more basic than you might imagine - we've run out of wire...]]></building>
+            <building name="Workshop" temporary="0" id="1033" img="small_refine">
+                <![CDATA[The advancement of a town depends on the construction of a shabby workshop full of nondescript clutter. It allows resources to be converted and is a pre-requisite for the construction of other more advanced buildings.]]></building>
+            <building name="Watchtower" temporary="0" id="1050" img="item_tagger">
+                <![CDATA[This tower, situated near the gates, gives an estimation of the magnitude of the forthcoming attack, allowing the citizens to be better prepared. It also unlocks all construction projects linked to emergency situations.]]></building>
+            <building name="Old-school traps" temporary="0" parent="1010" id="1055" img="small_gather">
+                <![CDATA[Lots of holes surrounding the town which have been covered with branches. Now you just need to wait for something to fall into them...]]></building>
+            <building name="Portal Lock" temporary="0" id="1062" img="small_door_closed">
+                <![CDATA[A somewhat old-fashioned device which stops the gates being opened during the 20 minutes immediately before the attack. The gates still have to be closed manually.]]></building>
+            <news z="44" def="80">
+                <content>
+                    <![CDATA[<p><strong>&dagger;&nbsp;Corvinus</strong> wanted to play at being a Hero, wandering around outside <strong>without an escort</strong>. We haven't seen or heard from him in several hours.</p><p>It should be noted that with Around 40 zombies at the gates last night, we could have feared the worst, but not a single one got in : good times&nbsp;! Don't break your arm patting yourself on the back just yet&nbsp;!</p>]]></content>
+            </news>
+            <defense base="10" items="7" citizen_guardians="10" citizen_homes="15" upgrades="0" buildings="45"
+                     total="87" itemsMul="1"/>
+        </city>
+        <bank>
+            <item name="Metal Support" count="2" id="160" cat="Rsc" img="metal_beam" broken="0"/>
+            <item name="Valium Shot" count="1" id="28" cat="Drug" img="xanax" broken="0"/>
+            <item name="Incomplete Cafetière" count="1" id="100" cat="Misc" img="coffee_machine_part" broken="0"/>
+            <item name="Kwik-Fix" count="2" id="184" cat="Misc" img="repair_one" broken="0"/>
+            <item name="Scrap Metal" count="4" id="161" cat="Rsc" img="metal_bad" broken="0"/>
+            <item name="Sheet Metal (parts)" count="1" id="96" cat="Misc" img="plate_raw" broken="0"/>
+            <item name="Plastic Bag" count="3" id="76" cat="Weapon" img="grenade_empty" broken="0"/>
+            <item name="Rotting Log" count="15" id="162" cat="Rsc" img="wood_bad" broken="0"/>
+            <item name="Twisted Plank" count="11" id="59" cat="Rsc" img="wood2" broken="0"/>
+            <item name="Bandage" count="3" id="66" cat="Drug" img="bandage" broken="0"/>
+            <item name="Semtex" count="3" id="73" cat="Rsc" img="explo" broken="0"/>
+            <item name="Adjustable Spanner" count="1" id="13" cat="Weapon" img="wrench" broken="1"/>
+            <item name="Solid Wooden Board" count="2" id="179" cat="Armor" img="wood_plate" broken="0"/>
+            <item name="Old Washing Machine" count="1" id="186" cat="Furniture" img="machine_1" broken="0"/>
+            <item name="Wrought Iron" count="3" id="60" cat="Rsc" img="metal" broken="0"/>
+            <item name="Strong Spices" count="1" id="149" cat="Misc" img="spices" broken="0"/>
+            <item name="Hacksaw" count="1" id="163" cat="Misc" img="saw_tool" broken="0"/>
+            <item name="Bag of Cement" count="2" id="133" cat="Misc" img="concrete" broken="0"/>
+            <item name="Festering Flesh" count="1" id="287" cat="Misc" img="smelly_meat" broken="0"/>
+            <item name="Box of Matches" count="11" id="26" cat="Misc" img="lights" broken="0"/>
+            <item name="Belt" count="2" id="40" cat="Rsc" img="courroie" broken="0"/>
+            <item name="Pound of Flesh" count="1" id="257" cat="Misc" img="flesh_part" broken="0"/>
+            <item name="Can Opener" count="1" id="23" cat="Weapon" img="can_opener" broken="0"/>
+            <item name="Water Purifying Tablets" count="1" id="171" cat="Drug" img="water_cleaner" broken="0"/>
+            <item name="'Wake The Dead'" count="1" id="97" cat="Food" img="rhum" broken="0"/>
+            <item name="Unshaped Concrete Blocks" count="2" id="134" cat="Armor" img="concrete_wall" broken="0"/>
+            <item name="Radio Cassette Player (no battery)" count="7" id="104" cat="Misc" img="radio_off" broken="0"/>
+            <item name="Copper Pipe" count="4" id="84" cat="Rsc" img="tube" broken="0"/>
+            <item name="Duct Tape" count="2" id="81" cat="Rsc" img="rustine" broken="0"/>
+            <item name="Battery" count="9" id="2" cat="Rsc" img="pile" broken="0"/>
+            <item name="Sheet Metal" count="1" id="64" cat="Armor" img="plate" broken="0"/>
+            <item name="Water Ration" count="4" id="1" cat="Food" img="water" broken="0"/>
+            <item name="Huge Snake (Ophiophagus trouser)" count="2" id="47" cat="Misc" img="pet_snake" broken="0"/>
+            <item name="Giant Rat" count="3" id="44" cat="Misc" img="pet_rat" broken="0"/>
+            <item name="Anabolic Steroids" count="1" id="51" cat="Drug" img="drug" broken="0"/>
+            <item name="Handful of nuts and bolts" count="5" id="41" cat="Rsc" img="meca_parts" broken="0"/>
+            <item name="Mattress" count="1" id="31" cat="Armor" img="bed" broken="0"/>
+            <item name="Pharmaceutical Products" count="1" id="95" cat="Drug" img="pharma" broken="0"/>
+            <item name="« Pine Fresh » Smoke Bomb" count="1" id="299" cat="Misc" img="smoke_bomb" broken="0"/>
+            <item name="Old Door" count="1" id="107" cat="Armor" img="door" broken="0"/>
+            <item name="Wonky Shopping Trolley" count="1" id="85" cat="Misc" img="cart_part" broken="0"/>
+            <item name="Mechanism" count="2" id="168" cat="Rsc" img="mecanism" broken="0"/>
+            <item name="Full Jerrycan" count="4" id="58" cat="Misc" img="jerrycan" broken="0"/>
+        </bank>
+        <expeditions/>
+        <citizens>
+            <citizen dead="0" hero="0" name="57ArasarA75" x="12" y="6" id="7266" ban="0" job="basic" out="0"
+                     baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="AMINOS" avatar="hordes/7/5/b964ea14_15970.jpg" x="12" y="6" id="15970"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="andrewfletcher53" avatar="hordes/b/4/ea3ca6c6_115361.jpg" x="10" y="6"
+                     id="115361" ban="0" job="basic" out="1" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Bezdelnik" avatar="hordes/1/c/d879135a_37665.jpg" x="12" y="6" id="37665"
+                     ban="0" job="basic" out="1" baseDef="0"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="blane2009" x="12" y="6" id="142511" ban="0" job="basic" out="0"
+                     baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="caezar76" x="12" y="6" id="128940" ban="0" job="basic" out="0" baseDef="1">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Dante404" avatar="hordes/a/a/a3807d7f_109848.jpg" x="12" y="6" id="109848"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="1" name="dd790" x="12" y="6" id="60052" ban="0" job="collec" out="0" baseDef="1">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="DolgVlaPet" avatar="hordes/9/a/5158d8d8_35221.jpg" x="12" y="6" id="35221"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[Scavenger/Builder]]></citizen>
+            <citizen dead="0" hero="0" name="DrRad" x="12" y="6" id="70564" ban="0" job="basic" out="0" baseDef="0">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="elborto" x="12" y="6" id="131241" ban="0" job="basic" out="0" baseDef="1">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="1" name="Flasher" x="12" y="6" id="152597" ban="0" job="guardian" out="0"
+                     baseDef="3"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="forlelik" x="12" y="6" id="15221" ban="0" job="basic" out="0" baseDef="1">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="GothicClown" x="10" y="2" id="83806" ban="0" job="basic" out="1"
+                     baseDef="0"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Gurmakk" x="12" y="6" id="27393" ban="0" job="basic" out="0" baseDef="1">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="1" name="HereticSquirrel" avatar="hordes/8/4/e591bafa_107332.jpg" x="12" y="6"
+                     id="107332" ban="0" job="guardian" out="0" baseDef="0"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="juana" avatar="hordes/a/4/164a05e2_54100.jpg" x="12" y="6" id="54100"
+                     ban="0" job="basic" out="0" baseDef="3"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="karming" avatar="hordes/1/6/b9891421_138308.jpg" x="12" y="6" id="138308"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="lostsanity" avatar="hordes/b/f/ff675142_20312.jpg" x="12" y="6" id="20312"
+                     ban="0" job="basic" out="0" baseDef="0"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="1" name="Mistereo" avatar="hordes/c/d/0dd77781_93258.jpg" x="12" y="11" id="93258"
+                     ban="0" job="collec" out="1" baseDef="0"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Moustache" avatar="hordes/3/4/dd1a3512_35424.jpg" x="12" y="6" id="35424"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Proudassassin" avatar="hordes/9/4/34003f2b_28155.jpg" x="12" y="6"
+                     id="28155" ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="1" name="Shepherd" avatar="hordes/8/2/6f1e82bb_137.jpg" x="10" y="17" id="137"
+                     ban="0" job="eclair" out="1" baseDef="0"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Sifter" avatar="hordes/8/2/84011716_82531.jpg" x="12" y="6" id="82531"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Soap123" x="12" y="6" id="110645" ban="0" job="basic" out="0" baseDef="0">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="StageX" x="12" y="6" id="50959" ban="0" job="basic" out="0" baseDef="0">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Swahili" avatar="hordes/1/0/4e464646_92565.jpg" x="10" y="2" id="92565"
+                     ban="0" job="basic" out="1" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Waffles89" avatar="hordes/d/a/a31986e5_29581.jpg" x="12" y="6" id="29581"
+                     ban="0" job="basic" out="0" baseDef="3"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="wanderer06" avatar="hordes/c/c/bcb5e5e8_129716.jpg" x="12" y="6"
+                     id="129716" ban="0" job="basic" out="0" baseDef="3"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="zullord" avatar="hordes/8/4/77595d15_82877.jpg" x="12" y="6" id="82877"
+                     ban="0" job="basic" out="0" baseDef="0"><![CDATA[]]></citizen>
+        </citizens>
+        <cadavers>
+            <cadaver name="Corvinus" dtype="5" id="124220" day="2">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="DrMurdoc" dtype="5" id="6129" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="kb123" dtype="7" id="94252" day="2">
+                <cleanup type="garbage" user="Waffles89"/>
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="Malfoy" dtype="5" id="31111" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="MidnightWolf92" dtype="7" id="141490" day="2">
+                <cleanup type="garbage" user="Swahili"/>
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="mironis" dtype="5" id="21415" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="NickNackZombieSmack" dtype="8" id="121743" day="2">
+                <msg><![CDATA[FACK]]></msg>
+            </cadaver>
+            <cadaver name="nightshadeharpie" dtype="5" id="140249" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="Shnyr" dtype="5" id="10147" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="sittingbunny" dtype="5" id="137874" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+        </cadavers>
+        <map hei="26" wid="26">
+            <zone x="10" y="18" nvt="0" danger="3">
+                <building name="Motel 666� Dusk »" type="51" dig="0">
+                    <![CDATA[You ask yourself what kind of person would enjoy spending a night  in a shabby hole like this motel. No doubt some sleazy sales rep whose dodgy past will catch up with him sooner or later. I really must check out room 215, you think to yourself, without really knowing why.]]></building>
+            </zone>
+        </map>
+        <upgrades total="2">
+            <up name="Watchtower" level="2" buildingId="1050">
+                <![CDATA[Every morning, all the zombies within 6 zones of the town are detected.]]></up>
+        </upgrades>
+        <estimations/>
+    </data>
+</hordes>

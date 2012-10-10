@@ -1,0 +1,350 @@
+#ruins_explorer {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    background: #584323 none 50% 50% no-repeat;
+    padding: 5px 20px 20px 20px;
+    border: 3px solid #5C2B20;
+
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 10px;
+}
+#ruins_explorer .close {
+    overflow: hidden;
+    text-indent: -9999px;
+    background: url('../images/close.png') #584323 no-repeat;
+    background-position: 6px;
+    border: 2px solid #FFFFCC;
+    color: #FFFFCC;
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    box-shadow: 0 0 3px #000;
+}
+#ruins_location {
+    width: 100%;
+    margin-bottom: 10px;
+}
+#ruins_location h1 {
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+#room_information {
+    margin-left: 40px;
+    float: left;
+    width: 206px;
+}
+#room_information h2 {
+    font-size: 14px;
+}
+#room_detail {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #5C2B20;
+    background: #784323;
+}
+#room_detail .add, .delete {
+    cursor: pointer;
+}
+#room_detail .delete_door {
+    width: 20px;
+    width: 20px;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 85px;
+}
+#room_detail .zombie_number {
+    width: 20px;
+    height: 20px;
+    background: #ff0000;
+    border: 2px solid #fff;
+    position: absolute;
+    border-radius: 12px;
+    left: 85px;
+    top: 130px;
+}
+#room_detail .zombie_number p {
+    margin-top: 2px;
+    width: 21px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+#room_detail .zombie {
+    position: absolute;
+    left: 82px;
+    top: 80px;
+}
+#room_detail .delete_zombies {
+    width: 20px;
+    width: 20px;
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 140px;
+}
+#room_detail .delete_room {
+    width: 20px;
+    width: 20px;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+#room_detail .add_room {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+#room_detail .add_NORTH, .delete_NORTH {
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 80px;
+}
+#room_detail .add_SOUTH, .delete_SOUTH {
+    position: absolute;
+    margin-top: 154px;
+    margin-left: 80px;
+}
+#room_detail .add_WEST, .delete_WEST {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 6px;
+}
+#room_detail .add_EAST, .delete_EAST {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 154px;
+}
+#room_detail .corridor_box {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+}
+#room_detail .corridor_NORTH {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 80px;
+    background: #ffffcc;
+}
+#room_detail .corridor_SOUTH {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 80px;
+    background: #ffffcc;
+}
+#room_detail .corridor_EAST {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 160px;
+    background: #ffffcc;
+}
+#room_detail .corridor_WEST {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 0px;
+    background: #ffffcc;
+}
+#room_detail .room_box {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    background: #ffffcc;
+    border-radius: 40px;
+}
+#room_detail .entrance {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 30px;
+}
+#room_detail .unlocked_door {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+#room_detail .locked_door {
+    position: absolute;
+    left: 24px;
+    top: 10px;
+    cursor: pointer;
+}
+#room_detail .room_box.faded {
+    opacity: .5;
+}
+#room_header {
+
+}
+#room_actions {
+    
+}
+#ruins_map {
+    clear: both;
+    float: left;
+    background: #5C2B20;
+}
+#ruins_map .known_room {
+    cursor:pointer;
+}
+#ruins_map .unknown_room {
+    cursor:pointer;
+    background: #784323;
+    border-radius: 10px !important;
+}
+#ruins_map .room_row {
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+#ruins_map .corridor_row {
+    clear: both;
+}
+#ruins_map .room_space {
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+#ruins_map .corner {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: #584323;
+    background-image: url(../images/circle_grey.png);
+    background-repeat: no-repeat;
+    background-position: 3px;
+}
+#ruins_map .corner.error {
+    background-image: url(../images/circle_red.png);
+}
+#ruins_map .corner.success {
+    background-image: url(../images/circle_green.png);
+}
+#ruins_map .headerx, #ruins_map .headery{
+    float: left;
+    width: 18px;
+    height: 18px;
+    font-weight:bold;
+    border: 1px solid #000;
+    color:#000;
+    background-color:#ccc;
+}
+#ruins_map .headery.over, #ruins_map .headerx.over {
+    color:#ccc;
+    background-color:#000;
+}
+#ruins_map .coordinates {
+    width: 18px;
+    text-align:center;
+    font-size: 9px;
+    position: absolute;
+    margin-left: 1px;
+    margin-top: 2px;
+}
+#ruins_map .room {
+    background: #ffffcc;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 3px;
+    border-radius: 6px;
+}
+#ruins_map .room.danger {
+    background: #ff0000;
+}
+#ruins_map .selected {
+    background: #99cc00;
+    border-radius: 6px;
+}
+#ruins_map .corridor_NORTH {
+    width: 4px;
+    height: 3px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 8px;
+    background: #ffffcc;
+}
+#ruins_map .corridor_SOUTH {
+    width: 4px;
+    height: 3px;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 8px;
+    background: #ffffcc;
+}
+#ruins_map .corridor_WEST {
+    width: 3px;
+    height: 4px;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 0px;
+    background: #ffffcc;
+}
+#ruins_map .corridor_EAST {
+    width: 3px;
+    height: 4px;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 17px;
+    background: #ffffcc;
+}
+#ruins_map p.symbol {
+    font-size: 100%;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 6px;
+    color: #000;
+}
+#room_header {
+    text-align: center;
+    margin-top: 8px;
+}
+#ruin_update_status {
+    height: 20px;
+}
+#ruin_update_message {
+    font-size: 12px;
+    font-weight: bold;
+    border-radius:10px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+#ruin_update_message.error {
+    background-color: red;
+}
+#ruin_update_message.success {
+    background-color: green;
+}
+#room_actions {
+    font-size: 11px;
+}
+#room_actions div.block {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    clear: both;
+    float: left;
+}
+#room_actions div.item-image {
+    float: left;
+}
+#room_actions img {
+    float: left;
+}
+#room_actions .description {
+    float: left;
+    margin-left: 4px;
+}
+#room_actions a {
+    color: #cccc00;
+}

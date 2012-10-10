@@ -1,0 +1,80 @@
+1. Get the distinct image names from the database
+
+   select distinct image from unique_inside_buildings order by image;
+   select distinct image from unique_items order by image;
+   select distinct image from unique_distinctions order by image;
+
+2. Copy the resultsets into a text file and strip the MySQL table demarcations
+
+   Search:  [ ]*\|[ ]*
+   Replace:
+
+3. Create two files:
+
+   item-images.sh
+   building-images.sh
+   distinction-images.sh
+
+   And two directories:
+
+   images
+   buildings
+   distinctions
+
+3a. Copy the distinct image name from unique_items to "item-images.sh" and do:
+
+   Search:  (.+)$
+   Replace: curl http://data.die2nite.com/gfx/icons/item_\$1.gif > images/\$1.gif
+
+3b. Copy the distinct image name from unique_inside_buildings to "building-images.sh" and do:
+
+   Search:  (.+)$
+   Replace: curl http://data.die2nite.com/gfx/icons/\$1.gif > buildings/\$1.gif
+
+3c. Copy the distinct image name from unique_distinctions to "distinction-images.sh" and do:
+
+   Search:  (.+)$
+   Replace: curl http://data.die2nite.com/gfx/icons/\$1.gif > distinctions/\$1.gif
+
+4. Make sure the shell scripts have execution rights
+
+   chmod 775 *.sh
+
+5. Run both shell scripts
+
+6. Zip the results of the "images" and "buildings" directories separately:
+
+   images -> images.zip
+   buildings -> buildings.zip
+   distinctions -> distinctions.zip
+   tags -> tags.zip
+
+   zip -r [folder_name].zip [folder_name]
+
+7. Sprite creation - open the site http://nl.spritegen.website-performance.org/
+
+7a. Browse to the location of the zip file and select it
+7b. Set image dimensions to 16 x 16
+7c. Set class prefixes
+
+    items.zip -> item-
+    buildings.zip -> building-
+    distinctions.zip -> distinction-
+    jobs.zip -> job-
+    tags.zip -> tag-
+
+7d. Create the sprite
+7e. Copy the CSS snippet and store it in the appropriate CSS file
+
+    item-image.css
+    building-image.css
+    distinction-image.css
+    tag-image.css
+
+7f. Copy the Sprite image to the following folder: src/main/webapp/images
+
+    item-sprite.png
+    building-sprite.png
+    distinction-sprite.png
+    tag-sprite.png
+

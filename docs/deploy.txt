@@ -1,0 +1,265 @@
+TOMCAT DEPLOMENT INSTRUCTIONS
+
+1. Prepare Apache Tomcat conf/context.xml
+
+   +- conf
+      +- context.xml
+
+    <Context>
+
+        <Environment name="HibernateDialect"
+            value="org.hibernate.dialect.MySQL5InnoDBDialect"
+            type="java.lang.String"/>
+
+        <Environment name="HibernateSchemaHandling"
+            value="validate"
+            type="java.lang.String"/>
+
+        <Resource name="jdbc/FromDuskTillDawnDataSource"
+            type="javax.sql.DataSource"
+            auth="Container"
+            initialSize="8"
+            maxActive="8"
+            defaultAutoCommit="false"
+            driverClassName="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://localhost/berzerg?useUnicode=true&amp;characterEncoding=utf-8"
+            username="********"
+            password="********"/>
+    </Context>
+
+   Replace the '********' fields with the appropriate username/password information.
+
+2. Prepare Apache Tomcat conf/server.xml
+
+   +- conf
+      +- server.xml
+
+   Replace the <Engine> element with defaultHost="localhost" with the following:
+
+   <Engine name="Catalina" defaultHost="d2n.localhost">
+
+     <Realm className="org.apache.catalina.realm.UserDatabaseRealm"
+            resourceName="UserDatabase"/>
+
+     <!-- FROM DUSK TILL DAWN -->
+     <Host name="d2n.localhost" appBase="webapps"
+           xmlValidation="false" xmlNamespaceAware="false">
+         <Context path="" docBase="dusktilldawn"/>
+     </Host>
+
+   </Engine>
+
+3. Copy MySQL JAR to Tomcat lib folder
+
+   +- lib
+      +- mysql-connector-java-5.1.13.jar
+
+4. Make sure there is a sitekey.properties file in the project structure
+
+   +- src
+      +- main
+         +- resources
+            +- sitekey.properties
+
+   sitekey.key=********
+
+   Replace the '********' field with the site key that D2N handed out. Note that this is a secret key and
+   may not be handed out to others.
+
+5. Create the WAR file from the project root folder
+
+   mvn war:war
+
+6. Copy WAR file from the target project folder to the webapps folder on the target environment.
+
+   FROM =>
+
+   +- target
+      +- dusktilldawn.war
+
+   TO =>
+
+   +- webapps
+      +- dusktilldawn.war
+
+   Tomcat will unpack the WAR to a folder with the same name
+
+   +- webapps
+      +- dusktilldawn.war
+      +- dusktilldawn          <= newly created folder
+
+7. Add src/main/webapp/images/favicon.ico to ...
+
+===
+
+Memory settings:
+
+1. Add to /etc/tomcat6/tomcat6.conf
+
+JAVA_OPTS="-Xmx256m"
+export JAVA_OPTS
+
+2. Check memory usage
+
+free -t -m
+top
+vmstat
+
+===
+
+Deployment:
+
+1. Stop Tomcat on the target environment:
+
+   /etc/init.d/tomcat6 stop
+
+2. Move the old WAR for rollback purposes:
+
+   mv dusktilldawn.war dusktilldawn.war.old
+
+3. Copy the new WAR to the target environment
+
+   scp target/dusktilldawn.war root@duskdawn.net:/usr/share/tomcat6/webapps
+
+4. Make sure all the database changes have been made
+
+5. When the copying has been done start the Tomcat server and immediately restart it again
+
+   /etc/init.d/tomcat6 start
+
+   /etc/init.d/tomcat6 restart
+
+
+===
+
+Site key generation for external applications
+
+Key generation: http://www.andrewscompanies.com/tools/wep.asp#custom
+
+Generate 128-bit key
+
+===
+
+Restarting Tomcat
+
+/etc/init.d/tomcat6 restart
+
+Restarting MySQL
+
+/etc/init.d/mysqld stop
+/etc/init.d/mysqld start
+
+Check status of cores:
+
+cat /proc/cpuinfo
+
+* Check daily activity:
+
+select date_format(ua.updated, '%Y-%m-%d') as date, u.name as user, count(*) as updates from users u, user_activity ua where ua.user_id=u.id and date_format(ua.updated, '%Y-%m-%d') = '2012-01-15' group by u.id;
+
+* Check activity over days:
+
+select date_format(ua.updated, '%Y-%m-%d') as date, count(*) as updates from user_activity ua group by date_format(ua.updated, '%Y-%m-%d');
+
+* Check read actions over days (ie, people opening the app):
+
+select date_format(ua.updated, '%Y-%m-%d') as date, count(*) as updates from user_activity ua where ua.action='READ_MAP' group by date_format(ua.updated, '%Y-%m-%d');
+
+* Check usage during the day over the days:
+
+select date_format(ua.updated, '%H') as date, count(*) as updates from user_activity ua group by date_format(ua.updated, '%H');
+
+* Check last activity entries:
+
+select * from user_activity order by updated desc limit 8;
+
+* Check number of times action executed:
+
+select action, count(*) from user_activity ua group by ua.action order by count(*) desc;
+
+* Select users ordered by usage numbers
+
+select u.name, count(*) from users u, user_activity ua where u.id =ua.user_id group by u.id order by count(*);
+
+* Select actions per day by specific user
+
+select date_format(ua.updated, '%Y-%m-%d') as date, count(*) as updates from user_activity ua where ua.user_id=2164 group by date_format(ua.updated, '%Y-%m-%d');
+
+
+PERFORMANCE LOG
+
+/root/performance.log
+
+Converting performance log line to milliseconds:
+
+Search: [0-9]+-[0-9]+-[0-9]+ [0-9]+:[0-9]+:[0-9]+,[0-9]+ - @PERF List nl\.d2n\.dao\.UserActionDao\.findLastUpdateTimes\(int\): ([0-9]+) milliseconds\.
+Replace: $1
+
+
+DUMP
+
+mysqldump -u [USER] -p [DATABASE] > dumpfile.sql
+
+Local MySQL server:
+
+cd /usr/local/mysql-5.1.38-osx10.5-x86_64/
+sudo ./bin/mysqld_safe
+sudo ./bin/mysqladmin shutdown
+
+Migration to InnoDB:
+
+1. Make a MySQL Dump
+2. Copy the dump to a backup (needed for restoring the original situation and for restoring the dump file)
+3. Execute the following search replace commands in VI
+
+   :1,$s/ENGINE=MyISAM/ENGINE=InnoDB/g
+   :1,$s/CHARSET=latin1;/CHARSET=utf8;/g
+
+4. Drop database, create database
+5. Source the modified dump file
+
+First deployment:
+
+1. FAVICON.ICO
+
+On Tomcat 6 or lower, add to $CATALINA_HOME/conf/web.xml:
+
+    <mime-mapping>
+        <extension>ico</extension>
+        <mime-type>image/x-icon</mime-type>
+    </mime-mapping>
+
+This allows the favicon to be picked up.
+
+Removing StopWatch log entries from log:
+
+[0-9-]+ [0-9:,]+ WARN \[nl\.d2n\.util\.StopWatch\] - <String nl\.d2n\.reader\.XmlReader\.readStringFromUrl\(String\): [0-9]+ milliseconds\.>\n
+
+
+FIREFOX PLUGIN
+
+Firefox Plugin Development
+
+1. Start Firefox in dev mode:
+
+/Applications/Firefox.app/Contents/MacOS/firefox-bin -no-remote -P dev &
+
+vs. regular mode:
+
+/Applications/Firefox.app/Contents/MacOS/firefox-bin -no-remote -P default &
+
+Read: http://blog.mozilla.com/addons/2009/01/28/how-to-develop-a-firefox-extension/
+
+Have symbolic link here:
+
+~/Library/Application Support/Firefox/Profiles/opuw6x69.dev/extensions
+
+ln -s /workspace/gecko/trunk die2nite-gecko@duskdawn.net
+
+Building the XPI file:
+
+https://developer.mozilla.org/en/Building_an_Extension
+
+Dev network:
+
+https://addons.mozilla.org/en-US/developers/

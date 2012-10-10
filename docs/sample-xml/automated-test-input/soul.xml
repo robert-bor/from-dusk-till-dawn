@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hordes xmlns:dc="http://purl.org/dc/elements/1.1" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <headers link="http://www.die2nite.com/xml" iconurl="http://data.die2nite.com/gfx/icons/" secure="1"
+             author="Motion Twin &lt;http://www.motion-twin.com&gt;" language="en" version="2.171"
+             avatarurl="http://imgup.motion-twin.com/" generator="haxe">
+        <owner>
+            <citizen dead="0" hero="1" name="BerZerg" avatar="hordes/2/d/f1806e08_109665.jpg" x="19" y="20" id="109665"
+                     ban="0" job="eclair" out="1" baseDef="0"><![CDATA[]]></citizen>
+            <myZone dried="0" h="2" z="1">
+                <item name="Ness-Quick Weedkiller" count="1" id="137" cat="Misc" img="digger" broken="0"/>
+                <item name="Plastic Bag" count="2" id="76" cat="Weapon" img="grenade_empty" broken="0"/>
+                <item name="Trestle" count="1" id="169" cat="Armor" img="trestle" broken="0"/>
+            </myZone>
+        </owner>
+        <game days="6" quarantine="0" datetime="2011-09-27 12:25:12" id="15550"/>
+    </headers>
+    <data cache-date="2011-09-27 12:22:48" cache-fast="0">
+        <rewards>
+            <r name="Roleplayer" rare="1" n="9" img="r_rp">
+                <title name="Curious reader"/>
+            </r>
+            <r name="Banishments" rare="0" n="1" img="r_ban"/>
+            <r name="Drugs" rare="0" n="75" img="r_drug"/>
+            <r name="Community Awards" rare="1" n="5" img="r_bgum">
+                <title name="Community Spirit"/>
+            </r>
+            <r name="Decoration" rare="0" n="105" img="r_deco">
+                <title name="Coquette"/>
+            </r>
+            <r name="Masochism" rare="1" n="3" img="r_maso"/>
+            <r name="Daredevil Camper" rare="0" n="12" img="r_camp">
+                <title name="Suicide Sleeper"/>
+            </r>
+            <r name="Cadaver Collector" rare="0" n="11" img="r_cgarb"/>
+            <r name="Injuries" rare="0" n="3" img="r_wound"/>
+            <r name="Generosity" rare="0" n="6" img="r_share"/>
+            <r name="Messages" rare="0" n="2942" img="r_forum"/>
+            <r name="Tasty Dishes" rare="0" n="168" img="r_cookr">
+                <title name="Mama's Finest"/>
+            </r>
+            <r name="Thefts" rare="0" n="18" img="r_theft">
+                <title name="Tea Leaf"/>
+            </r>
+            <r name="Dead in your bed" rare="0" n="7" img="r_dcity"/>
+            <r name="Zombies eliminated" rare="0" n="1119" img="r_killz">
+                <title name="The Hitman"/>
+            </r>
+            <r name="Cannibalism" rare="0" n="2" img="r_cannib"/>
+            <r name="Heroic actions" rare="1" n="42" img="r_heroac">
+                <title name="Extraordinary citizen"/>
+            </r>
+            <r name="Extreme BBQ Chef" rare="0" n="2" img="r_cooked"/>
+            <r name="Homemaker" rare="0" n="84" img="r_hbuild"/>
+            <r name="Professional Guardian" rare="0" n="30" img="r_jguard">
+                <title name="Master Guardian"/>
+            </r>
+            <r name="Nights in the desert" rare="0" n="11" img="r_doutsd"/>
+            <r name="Professional Scavenger" rare="0" n="58" img="r_jcolle">
+                <title name="Master Scavenger"/>
+            </r>
+            <r name="Craftsman" rare="0" n="185" img="r_refine"/>
+            <r name="Drug Tests" rare="0" n="17" img="r_cobaye"/>
+            <r name="Clean" rare="0" n="30" img="r_nodrug">
+                <title name="Twinoid is taboo"/>
+            </r>
+            <r name="Butcher" rare="0" n="44" img="r_animal">
+                <title name="Local Butcher"/>
+            </r>
+            <r name="Alcohol" rare="0" n="19" img="r_alcool"/>
+            <r name="Fights of despair" rare="0" n="1" img="r_wrestl"/>
+            <r name="Luck" rare="1" n="1" img="r_chstxl"/>
+            <r name="Emancipation of the Shunned" rare="0" n="1" img="r_solban"/>
+            <r name="Breakages" rare="0" n="79" img="r_broken"/>
+            <r name="Water Guns" rare="1" n="1" img="r_watgun"/>
+            <r name="Last line of defence" rare="1" n="5" img="r_surgrp"/>
+            <r name="Home Improvements" rare="0" n="30" img="r_homeup"/>
+            <r name="Constructions" rare="0" n="359" img="r_buildr">
+                <title name="Builder"/>
+            </r>
+            <r name="Pillages" rare="0" n="84" img="r_plundr">
+                <title name="Plunderer"/>
+            </r>
+            <r name="Golden Child" rare="1" n="2" img="r_rrefer">
+                <title name="Fund re-allocation specialist"/>
+            </r>
+            <r name="Excavations" rare="0" n="31" img="r_digger"/>
+            <r name="Sprinkler" rare="0" n="14" img="r_cwater"/>
+            <r name="Professional Scout" rare="0" n="42" img="r_jrangr">
+                <title name="Shadow Master"/>
+            </r>
+            <r name="Repairs" rare="0" n="32" img="r_repair">
+                <title name="Fitter"/>
+            </r>
+            <r name="Distant Discoveries" rare="0" n="45" img="r_explor">
+                <title name="Fearless adventurer"/>
+            </r>
+            <r name="Extreme Projects" rare="1" n="16" img="r_wondrs"/>
+            <r name="Zen Camper" rare="1" n="3" img="r_cmplst"/>
+            <r name="Last Man Standing" rare="1" n="1" img="r_surlst"/>
+        </rewards>
+        <maps>
+            <m name="Quivering sands of 1000 deaths" season="2" score="276" d="23" id="12366" v1="0">
+                <![CDATA[Highlanders for the Win!]]></m>
+            <m name="Tomb of reptiles" season="2" score="210" d="20" id="11330" v1="0">
+                <![CDATA[We ran a tight ship here. Not everyone understood, but it sure worked well and brought us far]]></m>
+            <m name="Pitiless bay of the banished" season="3" score="153" d="17" id="14922" v1="0">
+                <![CDATA[My first Zen camper experience :) Great MMJ town with great people!]]></m>
+            <m name="Highlands of insurgents" season="2" score="105" d="14" id="10558" v1="0">
+                <![CDATA[Great town, cradle for a meta. Hanging djdino was good fun!]]></m>
+            <m name="Crepuscular mesa of dying flesh" season="3" score="78" d="12" id="13933" v1="0">
+                <![CDATA[Four cats, a Cafetiére and some plans to conquer the world... Mwoohahaha]]></m>
+            <m name="Cliffe of tricks" season="3" score="66" d="11" id="13449" v1="0">
+                <![CDATA[First S3 town - where were the Järpen Table and Search Tower BP?]]></m>
+            <m name="Sad mount of flesh" season="2" score="66" d="11" id="9868" v1="0">
+                <![CDATA[Incredible how a random bunch can achieve this -- loyalty, fun and hard work. We lasted and lasted]]></m>
+            <m name="Empty forts" season="1" score="36" d="8" id="8141" v1="0"><![CDATA[I have failed...]]></m>
+            <m name="Wooden tundra of bloody tears" season="3" score="28" d="7" id="14390" v1="0"><![CDATA[]]></m>
+            <m name="The bloody junctions" season="2" score="28" d="7" id="9242" v1="0">
+                <![CDATA[Lots of dorks in this town. But we held on tight and came far]]></m>
+            <m name="Painful arenas" season="2" score="15" d="5" id="8841" v1="0">
+                <![CDATA[At first this town looked like nothing, but there were some smart people in there]]></m>
+            <m name="Lakes of criminals" season="1" score="10" d="4" id="7808" v1="0"><![CDATA[]]></m>
+            <m name="The arcane barracks" season="3" score="3" d="2" id="15495" v1="0">
+                <![CDATA[And it was silent... thank God!]]></m>
+            <m name="Hamlet of ill-advised encounters" season="3" score="3" d="2" id="14810" v1="0"><![CDATA[]]></m>
+            <m name="Knoll of terror" season="3" score="3" d="2" id="14712" v1="0">
+                <![CDATA[Good camping place, bad luck. Go for it, peeps! Remember to update the map ;)]]></m>
+            <m name="The colonies of insanity" season="3" score="3" d="2" id="14619" v1="0"><![CDATA[]]></m>
+            <m name="Strict stream" season="3" score="1" d="1" id="13879" v1="0"><![CDATA[Passing through :)]]></m>
+            <m name="Irritable pits of decomposition" season="3" score="0" d="0" id="14364" v1="0"><![CDATA[]]></m>
+            <m name="Dilapidated bay of the orient" season="1" score="0" d="0" id="8108" v1="0"><![CDATA[]]></m>
+        </maps>
+    </data>
+</hordes>
