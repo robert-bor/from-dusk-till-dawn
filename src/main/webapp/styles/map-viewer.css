@@ -618,6 +618,12 @@ div.item{
 #map .onmap_apptag img{
     background-color:#FFF
 }
+#overview_tab_items p.enter_item {
+    padding: 1px;
+    font-size: 90%;
+    font-weight:normal;
+    height: 20px;
+}
 #item_search .bank_category p {
     cursor: pointer;
 }

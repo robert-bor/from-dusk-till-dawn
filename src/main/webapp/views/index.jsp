@@ -10,11 +10,11 @@
         <script type="text/javascript" src="scripts/jquery-1.6.4.min.js"></script>
         <script type="text/javascript" src="scripts/jquery-ui-1.8.16.min.js"></script>
         <script type="text/javascript" src="scripts/jquery.cookie.js"></script>
-        <script type="text/javascript" src="scripts/duskdawn.js?version=10"></script>
+        <script type="text/javascript" src="scripts/duskdawn.js?version=11"></script>
         <script type="text/javascript" src="scripts/ruins.js?version=1"></script>
 
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-        <link rel="stylesheet" type="text/css" href="styles/map-viewer.css?version=4"/>
+        <link rel="stylesheet" type="text/css" href="styles/map-viewer.css?version=5"/>
         <link rel="stylesheet" type="text/css" href="styles/ruins.css"/>
         <link rel="stylesheet" type="text/css" href="styles/building-image.css"/>
         <link rel="stylesheet" type="text/css" href="styles/job-image.css?version=3"/>
@@ -124,6 +124,7 @@
                         </div>
                     </div>
                     <div id="overview_tab_items" class="overview_tab_content" style="display: none;">
+                        <p class="enter_item">Search for item: <input id="existing_item_filter" type="text" size="33"></p>
                         <div id="item_search" class="zone_info" style="position: relative;">
                         </div>
                     </div>
@@ -178,7 +179,7 @@
                 <select id="item_dropdown">
                 </select>
                 <button id="add_item_from_dropdown" type="button">Add item</button>
-                Filter on item name: <input id="item_filter" type="text" size="25">
+                Filter on item name: <input id="item_filter" type="text" size="25"/>
             </div>
             <div>
                 <div id="unique_items">

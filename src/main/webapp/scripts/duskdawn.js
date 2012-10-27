@@ -957,6 +957,19 @@ function generateItemUpdaterToBoxHtml(items) {
     output += generateItemsOnTheGroundHtml(items, true);
     $('#item_update_box #drop_box').html(output);
 }
+function filterExistingItemsOnSnippet(itemNameSnippet) {
+    deselectSearchItems();
+    if (itemNameSnippet == undefined || itemNameSnippet == "") {
+        return;
+    }
+    itemNameSnippet = itemNameSnippet.toLowerCase();
+    $.each(itemSearchIndex, function(compoundItemId, zones) {
+        var itemId = parseCompoundItemKey(compoundItemId).id;
+        if (itemLookup[itemId].name.toLowerCase().indexOf(itemNameSnippet) != -1) {
+            $('#item_search #'+compoundItemId).click();
+        }
+    });
+}
 function filterItemsOnSnippet(itemNameSnippet) {
     $("#unique_items .item").removeClass("filtered");
     if (itemNameSnippet == undefined || itemNameSnippet == "") {
@@ -1462,6 +1475,7 @@ function changeZoneSelection(event) {
             focusElement == "show_range_dropdown" ||
             focusElement == "select_camping_topology" ||
             focusElement == "peek_input" ||
+            focusElement == "existing_item_filter" ||
             focusComponentType == "input") {
         return true;
     }
@@ -1581,6 +1595,9 @@ function highlightTab(selectedTab, tabGroup) {
 
     var activeTab = selectedTab.find("a").attr("href");
     $(activeTab).show();
+    if ($(activeTab).attr("id") == "overview_tab_items") {
+        $('#existing_item_filter').focus();
+    }
     return false;
 }
 function deselectSearchItems() {
@@ -1893,6 +1910,10 @@ $(document).ready(function () {
 
     $('#item_filter').live('keyup', function () {
         filterItemsOnSnippet($(this).val());
+    });
+
+    $('#existing_item_filter').live('keyup', function () {
+        filterExistingItemsOnSnippet($(this).val());
     });
 
     $('#toggle_depleted').click(function () {
