@@ -124,7 +124,7 @@
                         </div>
                     </div>
                     <div id="overview_tab_items" class="overview_tab_content" style="display: none;">
-                        <p class="enter_item">Search for item: <input id="existing_item_filter" type="text" size="33"></p>
+                        <p class="enter_item">Search for item: <input id="existing_item_filter" type="text" size="28"></p>
                         <div id="item_search" class="zone_info" style="position: relative;">
                         </div>
                     </div>
