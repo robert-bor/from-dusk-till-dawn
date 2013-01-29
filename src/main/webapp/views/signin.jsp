@@ -51,6 +51,9 @@
                 in the game itself. It helps players to organize what they have found in the World Beyond and it keeps
                 players in touch with what is happening around them.</p>
 
+                <p>For a really excellent guide on using this site, be sure to read this
+                <a href="http://annetteannette.net/die2nite/almanac/dusktilldawn.html">walkthrough</a>.</p>
+
                 <p>Want to know more? Check out the <a href="#tour">Tour</a> below.</p>
 
                 <h2 id="faq">FAQ</h2>
