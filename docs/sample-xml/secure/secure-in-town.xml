@@ -1,1 +1,281 @@
-<?xml version="1.0" encoding="UTF-8"?><hordes xmlns:dc="http://purl.org/dc/elements/1.1" xmlns:content="http://purl.org/rss/1.0/modules/content/"><headers link="http://www.die2nite.com/xml" iconurl="http://data.die2nite.com/gfx/icons/" secure="1" author="Motion Twin &lt;http://www.motion-twin.com&gt;" language="en" version="2.171" avatarurl="http://imgup.motion-twin.com/" generator="haxe"><owner><citizen dead="0" hero="1" name="BerZerg" avatar="hordes/2/d/f1806e08_109665.jpg" x="16" y="16" id="109665" ban="0" job="eclair" out="0" baseDef="0"><![CDATA[]]></citizen><myZone/></owner><game days="2" quarantine="0" datetime="2011-08-02 23:32:42" id="13879"/></headers><data cache-date="2011-08-02 23:32:42" cache-fast="1"><city city="Strict stream" door="1" water="143" chaos="0" devast="0" x="16" y="16"><building name="Watchtower" temporary="0" id="1050" img="item_tagger"><![CDATA[This tower, situated near the gates, gives an estimation of the magnitude of the forthcoming attack, allowing the citizens to be better prepared. It also unlocks all construction projects linked to emergency situations.]]></building><news z="27" def="34"><content><![CDATA[<p>Nobody lifted a finger to help the 8 citizens that were blocked outside last night. I hope you can sleep at night with their deaths on your conscience.</p><p>Apart from that, the zombies came at us <strong>hard</strong> for some time, but none got through... However, don't doubt for a second that they'll be back tonight, even hungrier and certainly greater in number...</p>]]></content></news><defense base="10" items="5" citizen_guardians="5" citizen_homes="9" upgrades="0" buildings="5" total="34" itemsMul="1"/></city><bank><item name="Metal Support" count="2" id="160" cat="Rsc" img="metal_beam" broken="0"/><item name="Valium Shot" count="1" id="28" cat="Drug" img="xanax" broken="0"/><item name="Chicken" count="1" id="42" cat="Misc" img="pet_chick" broken="0"/><item name="Big Rubber D*** (incomplete)" count="2" id="154" cat="Misc" img="vibr_empty" broken="0"/><item name="Scrap Metal" count="5" id="161" cat="Rsc" img="metal_bad" broken="0"/><item name="Twinoid 500mg" count="1" id="89" cat="Drug" img="drug_hero" broken="0"/><item name="Sheet Metal (parts)" count="1" id="96" cat="Misc" img="plate_raw" broken="0"/><item name="Electronic component" count="2" id="101" cat="Rsc" img="electro" broken="0"/><item name="Crate Lid" count="1" id="178" cat="Misc" img="wood_plate_part" broken="0"/><item name="Engine (incomplete)" count="1" id="185" cat="Misc" img="engine_part" broken="0"/><item name="Plastic Bag" count="1" id="76" cat="Weapon" img="grenade_empty" broken="0"/><item name="Rotting Log" count="8" id="162" cat="Rsc" img="wood_bad" broken="0"/><item name="Twisted Plank" count="15" id="59" cat="Rsc" img="wood2" broken="0"/><item name="Compact Detonator" count="1" id="132" cat="Rsc" img="deto" broken="0"/><item name="Solid Wooden Board" count="2" id="179" cat="Armor" img="wood_plate" broken="0"/><item name="Wrought Iron" count="6" id="60" cat="Rsc" img="metal" broken="0"/><item name="Bag of Cement" count="1" id="133" cat="Misc" img="concrete" broken="0"/><item name="Box of Matches" count="7" id="26" cat="Misc" img="lights" broken="0"/><item name="Hydratone 100mg" count="1" id="103" cat="Drug" img="drug_water" broken="0"/><item name="Can Opener" count="2" id="23" cat="Weapon" img="can_opener" broken="0"/><item name="Water Purifying Tablets" count="2" id="171" cat="Drug" img="water_cleaner" broken="0"/><item name="Box Cutter" count="1" id="20" cat="Weapon" img="cutter" broken="0"/><item name="Radio Cassette Player (no battery)" count="8" id="104" cat="Misc" img="radio_off" broken="0"/><item name="Open Can" count="2" id="4" cat="Food" img="can_open" broken="0"/><item name="Copper Pipe" count="1" id="84" cat="Rsc" img="tube" broken="0"/><item name="Duct Tape" count="2" id="81" cat="Rsc" img="rustine" broken="0"/><item name="Battery" count="12" id="2" cat="Rsc" img="pile" broken="0"/><item name="Sheet Metal" count="1" id="64" cat="Armor" img="plate" broken="0"/><item name="Rusty Chain" count="1" id="196" cat="Weapon" img="chain" broken="0"/><item name="Patchwork Beam" count="2" id="159" cat="Rsc" img="wood_beam" broken="0"/><item name="Flash Powder" count="2" id="173" cat="Misc" img="powder" broken="0"/><item name="Giant Rat" count="1" id="44" cat="Misc" img="pet_rat" broken="0"/><item name="Anabolic Steroids" count="1" id="51" cat="Drug" img="drug" broken="0"/><item name="Paracetoid 7g" count="1" id="136" cat="Drug" img="disinfect" broken="0"/><item name="Handful of nuts and bolts" count="1" id="41" cat="Rsc" img="meca_parts" broken="0"/><item name="Half-eaten Chicken Wings" count="1" id="144" cat="Food" img="food_chick" broken="0"/><item name="Pharmaceutical Products" count="5" id="95" cat="Drug" img="pharma" broken="0"/><item name="Old Door" count="1" id="107" cat="Armor" img="door" broken="0"/><item name="Mechanism" count="3" id="168" cat="Rsc" img="mecanism" broken="0"/><item name="Pathetic Penknife" count="1" id="18" cat="Weapon" img="small_knife" broken="1"/><item name="Out-of-Date Biscuits" count="1" id="145" cat="Food" img="food_pims" broken="0"/><item name="« Pine Fresh » Smoke Bomb" count="1" id="299" cat="Misc" img="smoke_bomb" broken="0"/><item name="Full Jerrycan" count="2" id="58" cat="Misc" img="jerrycan" broken="0"/><item name="Trestle" count="1" id="169" cat="Armor" img="trestle" broken="0"/></bank><expeditions/><citizens><citizen dead="0" hero="0" name="bardic" avatar="hordes/5/4/b4de0ba1_118059.jpg" x="16" y="16" id="118059" ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen><citizen dead="0" hero="1" name="BerZerg" avatar="hordes/2/d/f1806e08_109665.jpg" x="16" y="16" id="109665" ban="0" job="eclair" out="0" baseDef="0"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="blackrader42" x="16" y="16" id="97498" ban="0" job="basic" out="0" baseDef="0"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="deatharmy" avatar="hordes/9/1/a3979def_150046.jpg" x="16" y="16" id="150046" ban="0" job="basic" out="0" baseDef="1"><![CDATA[keeping corrosive liquid so that noone makes a vile of poison...]]></citizen><citizen dead="0" hero="0" name="DeBruce" avatar="hordes/d/e/268b4d96_5987.jpg" x="16" y="16" id="5987" ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="Dissoriented" avatar="hordes/1/e/25eb71a5_95303.jpg" x="16" y="16" id="95303" ban="0" job="" out="0" baseDef="0"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="furby007" x="16" y="16" id="132145" ban="0" job="basic" out="0" baseDef="0"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="Gridell" avatar="hordes/2/8/7f9a6fb4_100263.jpg" x="14" y="14" id="100263" ban="0" job="basic" out="1" baseDef="1"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="Haynat" x="16" y="22" id="141799" ban="0" job="basic" out="1" baseDef="0"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="HKGxray" x="16" y="16" id="103300" ban="0" job="basic" out="0" baseDef="0"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="illiac" x="16" y="16" id="137921" ban="0" job="basic" out="0" baseDef="0"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="Jbomb" avatar="hordes/b/0/0793b541_142357.jpg" x="16" y="22" id="142357" ban="0" job="basic" out="1" baseDef="0"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="JoshuaZ" x="16" y="16" id="8777" ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="keefus1" avatar="hordes/7/9/7b3f060d_31263.jpg" x="16" y="19" id="31263" ban="0" job="basic" out="1" baseDef="1"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="Krtek" avatar="hordes/5/d/f0ba17e5_79075.jpg" x="16" y="16" id="79075" ban="0" job="basic" out="0" baseDef="0"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="ksfireball" avatar="hordes/6/2/05070bb4_97224.jpg" x="16" y="16" id="97224" ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="lillehansen" x="11" y="17" id="28014" ban="0" job="basic" out="1" baseDef="1"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="Miffo" avatar="hordes/8/5/8661bc9d_10255.jpg" x="16" y="16" id="10255" ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="Mroz" avatar="hordes/d/8/ce92a093_18817.jpg" x="16" y="16" id="18817" ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="nasko" avatar="hordes/8/5/f04ccdf8_10798.jpg" x="16" y="16" id="10798" ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="nicolaslam" avatar="hordes/c/f/5623ce1e_121508.jpg" x="16" y="16" id="121508" ban="0" job="basic" out="0" baseDef="0"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="Niea7" avatar="hordes/7/c/a9bea4bd_140199.jpg" x="16" y="16" id="140199" ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="renniur" x="16" y="16" id="137960" ban="0" job="basic" out="0" baseDef="0"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="Runner" avatar="hordes/a/7/bfe12990_852.jpg" x="16" y="16" id="852" ban="0" job="basic" out="0" baseDef="0"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="SamoanVampCatt" x="16" y="16" id="109010" ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="Schott" avatar="hordes/1/1/f3097daf_6683.jpg" x="18" y="13" id="6683" ban="0" job="basic" out="1" baseDef="1"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="Simocrates" avatar="hordes/3/8/1ad99376_99667.jpg" x="16" y="16" id="99667" ban="0" job="basic" out="0" baseDef="0"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="stoneyan" x="10" y="16" id="74878" ban="0" job="basic" out="1" baseDef="1"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="Tayarjhilikatami" avatar="hordes/1/6/56eb48e3_94421.jpg" x="16" y="16" id="94421" ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="TomCrane" avatar="hordes/2/4/c45e0538_122639.jpg" x="16" y="16" id="122639" ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen><citizen dead="0" hero="0" name="TOXICYIU" x="16" y="16" id="145166" ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen><citizen dead="0" hero="1" name="Vittunaama" x="16" y="16" id="23241" ban="0" job="guardian" out="0" baseDef="1"><![CDATA[]]></citizen></citizens><cadavers><cadaver name="bernade" dtype="5" id="96739" day="1"><msg><![CDATA[]]></msg></cadaver><cadaver name="boruzi" dtype="5" id="124" day="1"><msg><![CDATA[]]></msg></cadaver><cadaver name="cilly" dtype="5" id="28953" day="1"><msg><![CDATA[]]></msg></cadaver><cadaver name="DeaconBlues" dtype="5" id="50904" day="1"><msg><![CDATA[]]></msg></cadaver><cadaver name="Oden" dtype="5" id="100325" day="1"><msg><![CDATA[]]></msg></cadaver><cadaver name="Osieu" dtype="5" id="95592" day="1"><msg><![CDATA[]]></msg></cadaver><cadaver name="PASKA" dtype="5" id="75983" day="1"><msg><![CDATA[]]></msg></cadaver><cadaver name="Vesena" dtype="5" id="55608" day="1"><msg><![CDATA[]]></msg></cadaver></cadavers><map hei="25" wid="25"><zone x="16" y="7" nvt="0"/><zone x="17" y="7" nvt="0"/><zone x="18" y="7" nvt="0"/><zone x="19" y="7" nvt="0"/><zone x="16" y="8" nvt="0"/><zone x="19" y="8" nvt="1"/><zone x="20" y="8" nvt="1"/><zone x="21" y="8" nvt="1"/><zone x="16" y="9" nvt="0"/><zone x="21" y="9" nvt="1"/><zone x="15" y="10" nvt="1"/><zone x="16" y="10" nvt="0"/><zone x="21" y="10" nvt="1"/><zone x="12" y="11" nvt="1"/><zone x="13" y="11" nvt="1"/><zone x="14" y="11" nvt="1"/><zone x="15" y="11" nvt="1"/><zone x="16" y="11" nvt="0" tag="5"/><zone x="21" y="11" nvt="1"/><zone x="12" y="12" nvt="1"/><zone x="13" y="12" nvt="1"/><zone x="14" y="12" nvt="1"/><zone x="15" y="12" nvt="1"/><zone x="16" y="12" nvt="0" tag="5"/><zone x="17" y="12" nvt="1"/><zone x="18" y="12" nvt="1"/><zone x="19" y="12" nvt="1"/><zone x="20" y="12" nvt="1"/><zone x="21" y="12" nvt="1"><building name="Buried building" type="-1" dig="4"/></zone><zone x="13" y="13" nvt="1"/><zone x="14" y="13" nvt="1"/><zone x="15" y="13" nvt="0"/><zone x="16" y="13" nvt="0" tag="5"/><zone x="17" y="13" nvt="0" danger="2"/><zone x="18" y="13" nvt="1"><building name="Ambulance" type="36" dig="0"><![CDATA[This ambulance has been abandoned in the middle of the road. The wheels are gone, as is the engine... There are no signs of a struggle, and no signs of an accident. There are no bodies either come to that...]]></building></zone><zone x="13" y="14" nvt="1"/><zone x="14" y="14" nvt="0"/><zone x="15" y="14" nvt="0" tag="3"/><zone x="16" y="14" nvt="0"/><zone x="17" y="14" nvt="0"/><zone x="18" y="14" nvt="0" danger="1"/><zone x="11" y="15" nvt="1"/><zone x="12" y="15" nvt="1"/><zone x="13" y="15" nvt="0"/><zone x="14" y="15" nvt="0"/><zone x="15" y="15" nvt="0"/><zone x="16" y="15" nvt="0"/><zone x="17" y="15" nvt="0" tag="5"/><zone x="18" y="15" nvt="0" danger="1"/><zone x="19" y="15" nvt="0"/><zone x="10" y="16" nvt="1" tag="5"/><zone x="11" y="16" nvt="1"/><zone x="12" y="16" nvt="1"/><zone x="13" y="16" nvt="0" tag="5"/><zone x="14" y="16" nvt="0" tag="5"/><zone x="15" y="16" nvt="0" tag="5"/><zone x="16" y="16" nvt="0"/><zone x="17" y="16" nvt="0" tag="5"/><zone x="18" y="16" nvt="0" tag="5" danger="2"/><zone x="19" y="16" nvt="0"/><zone x="20" y="16" nvt="1"/><zone x="21" y="16" nvt="1"/><zone x="22" y="16" nvt="1"/><zone x="23" y="16" nvt="1"/><zone x="24" y="16" nvt="1"/><zone x="10" y="17" nvt="1"/><zone x="11" y="17" nvt="1" tag="3"><building name="PI-KEYA Furniture" type="40" dig="0"><![CDATA[PI-KEYA : These enormous stores used to be in every city (always rather annoyingly situated on the outskirts). They specialised in the manufacture and sale of cheap furniture, usually with one bolt / screw / fastener missing. It is said that the poor quality of their products was one of the reasons for society going to ruin...]]></building></zone><zone x="12" y="17" nvt="1"/><zone x="13" y="17" nvt="0"/><zone x="14" y="17" nvt="0"/><zone x="15" y="17" nvt="0" tag="3"/><zone x="16" y="17" nvt="0" tag="5"/><zone x="17" y="17" nvt="0"/><zone x="18" y="17" nvt="0"/><zone x="19" y="17" nvt="0" danger="2"/><zone x="20" y="17" nvt="1"><building name="Destroyed Pharmacy" type="17" dig="0"><![CDATA[A small local pharmacy... serving the erm... middle of the desert apparently. The unmentionable smells make you think of everything except medicines.]]></building></zone><zone x="21" y="17" nvt="1"/><zone x="22" y="17" nvt="1"/><zone x="23" y="17" nvt="1"/><zone x="24" y="17" nvt="1"/><zone x="14" y="18" nvt="0"/><zone x="15" y="18" nvt="0"/><zone x="16" y="18" nvt="0" tag="5"/><zone x="17" y="18" nvt="0"/><zone x="18" y="18" nvt="0"/><zone x="23" y="18" nvt="1"/><zone x="24" y="18" nvt="1"/><zone x="15" y="19" nvt="0"/><zone x="16" y="19" nvt="0" tag="5"/><zone x="17" y="19" nvt="0"/><zone x="15" y="20" nvt="1"/><zone x="16" y="20" nvt="0" danger="2"/><zone x="15" y="21" nvt="1"/><zone x="16" y="21" nvt="0" danger="3"/><zone x="16" y="22" nvt="1" tag="5"><building name="Looted Supermarket" type="5" dig="0"><![CDATA[This hulking mass of metal and brisk was probably a large shopping centre, swarming with activity and illuminated by a thousand lights. Today nothing swarms except the vermin and other crawling filth... There's no doubt though that it contains lots of goodies...]]></building></zone></map><upgrades total="1"><up name="Watchtower" level="1" buildingId="1050"><![CDATA[Every morning, all the zombies within 3 zones of the town are detected.]]></up></upgrades><estimations/></data></hordes>
+<?xml version="1.0" encoding="UTF-8"?>
+<hordes xmlns:dc="http://purl.org/dc/elements/1.1" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <headers link="http://www.die2nite.com/xml" iconurl="http://data.die2nite.com/gfx/icons/" secure="1"
+             author="Motion Twin &lt;http://www.motion-twin.com&gt;" language="en" version="2.171"
+             avatarurl="http://imgup.motion-twin.com/" generator="haxe">
+        <owner>
+            <citizen dead="0" hero="1" name="BerZerg" avatar="hordes/2/d/f1806e08_109665.jpg" x="16" y="16" id="109665"
+                     ban="0" job="eclair" out="0" baseDef="0"><![CDATA[]]></citizen>
+            <myZone/>
+        </owner>
+        <game days="2" quarantine="0" datetime="2011-08-02 23:32:42" id="13879"/>
+    </headers>
+    <data cache-date="2011-08-02 23:32:42" cache-fast="1">
+        <city city="Strict stream" door="1" water="143" chaos="0" devast="0" x="16" y="16">
+            <building name="Watchtower" temporary="0" id="1050" img="item_tagger">
+                <![CDATA[This tower, situated near the gates, gives an estimation of the magnitude of the forthcoming attack, allowing the citizens to be better prepared. It also unlocks all construction projects linked to emergency situations.]]></building>
+            <news z="27" def="34">
+                <content>
+                    <![CDATA[<p>Nobody lifted a finger to help the 8 citizens that were blocked outside last night. I hope you can sleep at night with their deaths on your conscience.</p><p>Apart from that, the zombies came at us <strong>hard</strong> for some time, but none got through... However, don't doubt for a second that they'll be back tonight, even hungrier and certainly greater in number...</p>]]></content>
+            </news>
+            <defense base="10" items="5" citizen_guardians="5" citizen_homes="9" upgrades="0" buildings="5" total="34"
+                     itemsMul="1"/>
+        </city>
+        <bank>
+            <item name="Metal Support" count="2" id="160" cat="Rsc" img="metal_beam" broken="0"/>
+            <item name="Valium Shot" count="1" id="28" cat="Drug" img="xanax" broken="0"/>
+            <item name="Chicken" count="1" id="42" cat="Misc" img="pet_chick" broken="0"/>
+            <item name="Big Rubber D*** (incomplete)" count="2" id="154" cat="Misc" img="vibr_empty" broken="0"/>
+            <item name="Scrap Metal" count="5" id="161" cat="Rsc" img="metal_bad" broken="0"/>
+            <item name="Twinoid 500mg" count="1" id="89" cat="Drug" img="drug_hero" broken="0"/>
+            <item name="Sheet Metal (parts)" count="1" id="96" cat="Misc" img="plate_raw" broken="0"/>
+            <item name="Electronic component" count="2" id="101" cat="Rsc" img="electro" broken="0"/>
+            <item name="Crate Lid" count="1" id="178" cat="Misc" img="wood_plate_part" broken="0"/>
+            <item name="Engine (incomplete)" count="1" id="185" cat="Misc" img="engine_part" broken="0"/>
+            <item name="Plastic Bag" count="1" id="76" cat="Weapon" img="grenade_empty" broken="0"/>
+            <item name="Rotting Log" count="8" id="162" cat="Rsc" img="wood_bad" broken="0"/>
+            <item name="Twisted Plank" count="15" id="59" cat="Rsc" img="wood2" broken="0"/>
+            <item name="Compact Detonator" count="1" id="132" cat="Rsc" img="deto" broken="0"/>
+            <item name="Solid Wooden Board" count="2" id="179" cat="Armor" img="wood_plate" broken="0"/>
+            <item name="Wrought Iron" count="6" id="60" cat="Rsc" img="metal" broken="0"/>
+            <item name="Bag of Cement" count="1" id="133" cat="Misc" img="concrete" broken="0"/>
+            <item name="Box of Matches" count="7" id="26" cat="Misc" img="lights" broken="0"/>
+            <item name="Hydratone 100mg" count="1" id="103" cat="Drug" img="drug_water" broken="0"/>
+            <item name="Can Opener" count="2" id="23" cat="Weapon" img="can_opener" broken="0"/>
+            <item name="Water Purifying Tablets" count="2" id="171" cat="Drug" img="water_cleaner" broken="0"/>
+            <item name="Box Cutter" count="1" id="20" cat="Weapon" img="cutter" broken="0"/>
+            <item name="Radio Cassette Player (no battery)" count="8" id="104" cat="Misc" img="radio_off" broken="0"/>
+            <item name="Open Can" count="2" id="4" cat="Food" img="can_open" broken="0"/>
+            <item name="Copper Pipe" count="1" id="84" cat="Rsc" img="tube" broken="0"/>
+            <item name="Duct Tape" count="2" id="81" cat="Rsc" img="rustine" broken="0"/>
+            <item name="Battery" count="12" id="2" cat="Rsc" img="pile" broken="0"/>
+            <item name="Sheet Metal" count="1" id="64" cat="Armor" img="plate" broken="0"/>
+            <item name="Rusty Chain" count="1" id="196" cat="Weapon" img="chain" broken="0"/>
+            <item name="Patchwork Beam" count="2" id="159" cat="Rsc" img="wood_beam" broken="0"/>
+            <item name="Flash Powder" count="2" id="173" cat="Misc" img="powder" broken="0"/>
+            <item name="Giant Rat" count="1" id="44" cat="Misc" img="pet_rat" broken="0"/>
+            <item name="Anabolic Steroids" count="1" id="51" cat="Drug" img="drug" broken="0"/>
+            <item name="Paracetoid 7g" count="1" id="136" cat="Drug" img="disinfect" broken="0"/>
+            <item name="Handful of nuts and bolts" count="1" id="41" cat="Rsc" img="meca_parts" broken="0"/>
+            <item name="Half-eaten Chicken Wings" count="1" id="144" cat="Food" img="food_chick" broken="0"/>
+            <item name="Pharmaceutical Products" count="5" id="95" cat="Drug" img="pharma" broken="0"/>
+            <item name="Old Door" count="1" id="107" cat="Armor" img="door" broken="0"/>
+            <item name="Mechanism" count="3" id="168" cat="Rsc" img="mecanism" broken="0"/>
+            <item name="Pathetic Penknife" count="1" id="18" cat="Weapon" img="small_knife" broken="1"/>
+            <item name="Out-of-Date Biscuits" count="1" id="145" cat="Food" img="food_pims" broken="0"/>
+            <item name="« Pine Fresh » Smoke Bomb" count="1" id="299" cat="Misc" img="smoke_bomb" broken="0"/>
+            <item name="Full Jerrycan" count="2" id="58" cat="Misc" img="jerrycan" broken="0"/>
+            <item name="Trestle" count="1" id="169" cat="Armor" img="trestle" broken="0"/>
+        </bank>
+        <expeditions/>
+        <citizens>
+            <citizen dead="0" hero="0" name="bardic" avatar="hordes/5/4/b4de0ba1_118059.jpg" x="16" y="16" id="118059"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="1" name="BerZerg" avatar="hordes/2/d/f1806e08_109665.jpg" x="16" y="16" id="109665"
+                     ban="0" job="eclair" out="0" baseDef="0"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="blackrader42" x="16" y="16" id="97498" ban="0" job="basic" out="0"
+                     baseDef="0"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="deatharmy" avatar="hordes/9/1/a3979def_150046.jpg" x="16" y="16"
+                     id="150046" ban="0" job="basic" out="0" baseDef="1">
+                <![CDATA[keeping corrosive liquid so that noone makes a vile of poison...]]></citizen>
+            <citizen dead="0" hero="0" name="DeBruce" avatar="hordes/d/e/268b4d96_5987.jpg" x="16" y="16" id="5987"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Dissoriented" avatar="hordes/1/e/25eb71a5_95303.jpg" x="16" y="16"
+                     id="95303" ban="0" job="" out="0" baseDef="0"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="furby007" x="16" y="16" id="132145" ban="0" job="basic" out="0"
+                     baseDef="0"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Gridell" avatar="hordes/2/8/7f9a6fb4_100263.jpg" x="14" y="14" id="100263"
+                     ban="0" job="basic" out="1" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Haynat" x="16" y="22" id="141799" ban="0" job="basic" out="1" baseDef="0">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="HKGxray" x="16" y="16" id="103300" ban="0" job="basic" out="0" baseDef="0">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="illiac" x="16" y="16" id="137921" ban="0" job="basic" out="0" baseDef="0">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Jbomb" avatar="hordes/b/0/0793b541_142357.jpg" x="16" y="22" id="142357"
+                     ban="0" job="basic" out="1" baseDef="0"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="JoshuaZ" x="16" y="16" id="8777" ban="0" job="basic" out="0" baseDef="1">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="keefus1" avatar="hordes/7/9/7b3f060d_31263.jpg" x="16" y="19" id="31263"
+                     ban="0" job="basic" out="1" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Krtek" avatar="hordes/5/d/f0ba17e5_79075.jpg" x="16" y="16" id="79075"
+                     ban="0" job="basic" out="0" baseDef="0"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="ksfireball" avatar="hordes/6/2/05070bb4_97224.jpg" x="16" y="16" id="97224"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="lillehansen" x="11" y="17" id="28014" ban="0" job="basic" out="1"
+                     baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Miffo" avatar="hordes/8/5/8661bc9d_10255.jpg" x="16" y="16" id="10255"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Mroz" avatar="hordes/d/8/ce92a093_18817.jpg" x="16" y="16" id="18817"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="nasko" avatar="hordes/8/5/f04ccdf8_10798.jpg" x="16" y="16" id="10798"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="nicolaslam" avatar="hordes/c/f/5623ce1e_121508.jpg" x="16" y="16"
+                     id="121508" ban="0" job="basic" out="0" baseDef="0"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Niea7" avatar="hordes/7/c/a9bea4bd_140199.jpg" x="16" y="16" id="140199"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="renniur" x="16" y="16" id="137960" ban="0" job="basic" out="0" baseDef="0">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Runner" avatar="hordes/a/7/bfe12990_852.jpg" x="16" y="16" id="852" ban="0"
+                     job="basic" out="0" baseDef="0"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="SamoanVampCatt" x="16" y="16" id="109010" ban="0" job="basic" out="0"
+                     baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Schott" avatar="hordes/1/1/f3097daf_6683.jpg" x="18" y="13" id="6683"
+                     ban="0" job="basic" out="1" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Simocrates" avatar="hordes/3/8/1ad99376_99667.jpg" x="16" y="16" id="99667"
+                     ban="0" job="basic" out="0" baseDef="0"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="stoneyan" x="10" y="16" id="74878" ban="0" job="basic" out="1" baseDef="1">
+                <![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="Tayarjhilikatami" avatar="hordes/1/6/56eb48e3_94421.jpg" x="16" y="16"
+                     id="94421" ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="TomCrane" avatar="hordes/2/4/c45e0538_122639.jpg" x="16" y="16" id="122639"
+                     ban="0" job="basic" out="0" baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="0" name="TOXICYIU" x="16" y="16" id="145166" ban="0" job="basic" out="0"
+                     baseDef="1"><![CDATA[]]></citizen>
+            <citizen dead="0" hero="1" name="Vittunaama" x="16" y="16" id="23241" ban="0" job="guardian" out="0"
+                     baseDef="1"><![CDATA[]]></citizen>
+        </citizens>
+        <cadavers>
+            <cadaver name="bernade" dtype="5" id="96739" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="boruzi" dtype="5" id="124" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="cilly" dtype="5" id="28953" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="DeaconBlues" dtype="5" id="50904" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="Oden" dtype="5" id="100325" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="Osieu" dtype="5" id="95592" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="PASKA" dtype="5" id="75983" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+            <cadaver name="Vesena" dtype="5" id="55608" day="1">
+                <msg><![CDATA[]]></msg>
+            </cadaver>
+        </cadavers>
+        <map hei="25" wid="25">
+            <zone x="16" y="7" nvt="0"/>
+            <zone x="17" y="7" nvt="0"/>
+            <zone x="18" y="7" nvt="0"/>
+            <zone x="19" y="7" nvt="0"/>
+            <zone x="16" y="8" nvt="0"/>
+            <zone x="19" y="8" nvt="1"/>
+            <zone x="20" y="8" nvt="1"/>
+            <zone x="21" y="8" nvt="1"/>
+            <zone x="16" y="9" nvt="0"/>
+            <zone x="21" y="9" nvt="1"/>
+            <zone x="15" y="10" nvt="1"/>
+            <zone x="16" y="10" nvt="0"/>
+            <zone x="21" y="10" nvt="1"/>
+            <zone x="12" y="11" nvt="1"/>
+            <zone x="13" y="11" nvt="1"/>
+            <zone x="14" y="11" nvt="1"/>
+            <zone x="15" y="11" nvt="1"/>
+            <zone x="16" y="11" nvt="0" tag="5"/>
+            <zone x="21" y="11" nvt="1"/>
+            <zone x="12" y="12" nvt="1"/>
+            <zone x="13" y="12" nvt="1"/>
+            <zone x="14" y="12" nvt="1"/>
+            <zone x="15" y="12" nvt="1"/>
+            <zone x="16" y="12" nvt="0" tag="5"/>
+            <zone x="17" y="12" nvt="1"/>
+            <zone x="18" y="12" nvt="1"/>
+            <zone x="19" y="12" nvt="1"/>
+            <zone x="20" y="12" nvt="1"/>
+            <zone x="21" y="12" nvt="1">
+                <building name="Buried building" type="-1" dig="4"/>
+            </zone>
+            <zone x="13" y="13" nvt="1"/>
+            <zone x="14" y="13" nvt="1"/>
+            <zone x="15" y="13" nvt="0"/>
+            <zone x="16" y="13" nvt="0" tag="5"/>
+            <zone x="17" y="13" nvt="0" danger="2"/>
+            <zone x="18" y="13" nvt="1">
+                <building name="Ambulance" type="36" dig="0">
+                    <![CDATA[This ambulance has been abandoned in the middle of the road. The wheels are gone, as is the engine... There are no signs of a struggle, and no signs of an accident. There are no bodies either come to that...]]></building>
+            </zone>
+            <zone x="13" y="14" nvt="1"/>
+            <zone x="14" y="14" nvt="0"/>
+            <zone x="15" y="14" nvt="0" tag="3"/>
+            <zone x="16" y="14" nvt="0"/>
+            <zone x="17" y="14" nvt="0"/>
+            <zone x="18" y="14" nvt="0" danger="1"/>
+            <zone x="11" y="15" nvt="1"/>
+            <zone x="12" y="15" nvt="1"/>
+            <zone x="13" y="15" nvt="0"/>
+            <zone x="14" y="15" nvt="0"/>
+            <zone x="15" y="15" nvt="0"/>
+            <zone x="16" y="15" nvt="0"/>
+            <zone x="17" y="15" nvt="0" tag="5"/>
+            <zone x="18" y="15" nvt="0" danger="1"/>
+            <zone x="19" y="15" nvt="0"/>
+            <zone x="10" y="16" nvt="1" tag="5"/>
+            <zone x="11" y="16" nvt="1"/>
+            <zone x="12" y="16" nvt="1"/>
+            <zone x="13" y="16" nvt="0" tag="5"/>
+            <zone x="14" y="16" nvt="0" tag="5"/>
+            <zone x="15" y="16" nvt="0" tag="5"/>
+            <zone x="16" y="16" nvt="0"/>
+            <zone x="17" y="16" nvt="0" tag="5"/>
+            <zone x="18" y="16" nvt="0" tag="5" danger="2"/>
+            <zone x="19" y="16" nvt="0"/>
+            <zone x="20" y="16" nvt="1"/>
+            <zone x="21" y="16" nvt="1"/>
+            <zone x="22" y="16" nvt="1"/>
+            <zone x="23" y="16" nvt="1"/>
+            <zone x="24" y="16" nvt="1"/>
+            <zone x="10" y="17" nvt="1"/>
+            <zone x="11" y="17" nvt="1" tag="3">
+                <building name="PI-KEYA Furniture" type="40" dig="0">
+                    <![CDATA[PI-KEYA : These enormous stores used to be in every city (always rather annoyingly situated on the outskirts). They specialised in the manufacture and sale of cheap furniture, usually with one bolt / screw / fastener missing. It is said that the poor quality of their products was one of the reasons for society going to ruin...]]></building>
+            </zone>
+            <zone x="12" y="17" nvt="1"/>
+            <zone x="13" y="17" nvt="0"/>
+            <zone x="14" y="17" nvt="0"/>
+            <zone x="15" y="17" nvt="0" tag="3"/>
+            <zone x="16" y="17" nvt="0" tag="5"/>
+            <zone x="17" y="17" nvt="0"/>
+            <zone x="18" y="17" nvt="0"/>
+            <zone x="19" y="17" nvt="0" danger="2"/>
+            <zone x="20" y="17" nvt="1">
+                <building name="Destroyed Pharmacy" type="17" dig="0">
+                    <![CDATA[A small local pharmacy... serving the erm... middle of the desert apparently. The unmentionable smells make you think of everything except medicines.]]></building>
+            </zone>
+            <zone x="21" y="17" nvt="1"/>
+            <zone x="22" y="17" nvt="1"/>
+            <zone x="23" y="17" nvt="1"/>
+            <zone x="24" y="17" nvt="1"/>
+            <zone x="14" y="18" nvt="0"/>
+            <zone x="15" y="18" nvt="0"/>
+            <zone x="16" y="18" nvt="0" tag="5"/>
+            <zone x="17" y="18" nvt="0"/>
+            <zone x="18" y="18" nvt="0"/>
+            <zone x="23" y="18" nvt="1"/>
+            <zone x="24" y="18" nvt="1"/>
+            <zone x="15" y="19" nvt="0"/>
+            <zone x="16" y="19" nvt="0" tag="5"/>
+            <zone x="17" y="19" nvt="0"/>
+            <zone x="15" y="20" nvt="1"/>
+            <zone x="16" y="20" nvt="0" danger="2"/>
+            <zone x="15" y="21" nvt="1"/>
+            <zone x="16" y="21" nvt="0" danger="3"/>
+            <zone x="16" y="22" nvt="1" tag="5">
+                <building name="Looted Supermarket" type="5" dig="0">
+                    <![CDATA[This hulking mass of metal and brisk was probably a large shopping centre, swarming with activity and illuminated by a thousand lights. Today nothing swarms except the vermin and other crawling filth... There's no doubt though that it contains lots of goodies...]]></building>
+            </zone>
+        </map>
+        <upgrades total="1">
+            <up name="Watchtower" level="1" buildingId="1050">
+                <![CDATA[Every morning, all the zombies within 3 zones of the town are detected.]]></up>
+        </upgrades>
+        <estimations/>
+    </data>
+</hordes>

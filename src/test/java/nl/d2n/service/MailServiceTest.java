@@ -1,8 +1,10 @@
 package nl.d2n.service;
 
 import nl.d2n.SpringContextTestCase;
-import nl.d2n.dao.UserDao;
-import nl.d2n.model.*;
+import nl.d2n.model.ApplicationException;
+import nl.d2n.model.D2NErrorCode;
+import nl.d2n.model.InboxAlert;
+import nl.d2n.model.UserKey;
 import nl.d2n.reader.OvalOfficeReader;
 import nl.d2n.util.ClassCreator;
 import org.junit.Before;
@@ -11,9 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.annotation.Resource;
 
-import static junit.framework.Assert.assertEquals;
-import static junit.framework.Assert.assertNotNull;
-import static junit.framework.Assert.fail;
+import static junit.framework.Assert.*;
 
 public class MailServiceTest extends SpringContextTestCase {
 
