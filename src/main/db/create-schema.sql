@@ -145,6 +145,7 @@ create table distinctions (
 alter table distinctions add constraint fk_distinctions_users_user_id foreign key (user_id) references users(id);
 alter table distinctions add constraint fk_distinctions_unique_distinctions_unique_distinction_id foreign key (unique_distinction_id) references unique_distinctions(id);
 alter table distinctions add constraint unique_distinctions_user_distinction unique (user_id, unique_distinction_id);
+create index idx_distinctions_amount on distinctions (amount);
 
 create table rooms (
   id int not null auto_increment,

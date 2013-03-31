@@ -1,5 +1,6 @@
 package nl.d2n.dao;
 
+import nl.d2n.dao.result.UserWithDistinction;
 import nl.d2n.dao.result.UserWithProfile;
 import nl.d2n.model.Distinction;
 import nl.d2n.model.User;
@@ -26,6 +27,19 @@ public class DistinctionDao {
     @Transactional
     public void saveDistinction(final Distinction distinction) {
         entityManager.merge(distinction);
+    }
+
+    @SuppressWarnings("unchecked")
+    public List<UserWithDistinction> findTopUsersWithDistinction(Integer uniqueDistinctionId, int amount) {
+        return (List<UserWithDistinction>)entityManager
+                .createQuery(
+                        "select new nl.d2n.dao.result.UserWithDistinction(u.gameId, u.name, d.amount) "+
+                        "from User u, Distinction d where u=d.user and d.uniqueDistinctionId=:uniqueDistinctionId "+
+                        "order by d.amount desc"
+                )
+                .setMaxResults(amount)
+                .setParameter("uniqueDistinctionId", uniqueDistinctionId)
+                .getResultList();
     }
 
     @SuppressWarnings({"unchecked"})

@@ -103,12 +103,18 @@ public class ClassCreator {
         insideBuildingDao.save(insideBuilding);
     }
 
-    public Distinction createDistinction(User user, String name) {
+    public Distinction createDistinction(User user, String name, int amount) {
         Distinction distinction = new Distinction();
+        distinction.setUniqueDistinctionId(1);
         distinction.setUser(user);
         distinction.setName(name);
+        distinction.setAmount(amount);
         distinctionDao.saveDistinction(distinction);
         return distinction;
+    }
+
+    public Distinction createDistinction(User user, String name) {
+        return createDistinction(user, name, 1);
     }
 
     public Room createRoom(Zone zone, int x, int y, boolean west, boolean north, boolean east, boolean south, Door door, Key key) {

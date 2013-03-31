@@ -74,3 +74,16 @@ https://addons.mozilla.org/en-US/firefox /addon/die2nite-agent/
 
 
 * show all items in zone (more on this later)
+
+===
+
+Run this on the production database:
+
+create index idx_distinctions_amount on distinctions (amount);
+
+(took approximately 2 minutes on old version of database, consider 5 in production)
+
+Fast as lightning now =>
+
+select u.game_id, u.name, ud.name, d.amount from users u, unique_distinctions ud, distinctions d where ud.id=d.unique_distinction_id and u.id=d.user_id and ud.id=270 order by d.amount desc limit 100;
+
