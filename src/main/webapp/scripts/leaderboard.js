@@ -113,10 +113,10 @@ $leaderboard.getTop100ForDistinction = function(selectedDistinction) {
         if (citizen.userGameId == activePlayerId) {
             highlight = " highlight";
         }
+        rank++;
         if (citizen.amount == previousAmount) {
             output += "<div class='position'>|</div>";
         } else {
-            rank++;
             output += "<div class='position'>"+rank+"</div>";
             previousAmount = citizen.amount;
         }
