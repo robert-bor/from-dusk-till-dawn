@@ -92,6 +92,7 @@ public class MapController {
                 mav.addObject("key", key.getKey());
                 mav.addObject("today", info.getGameHeader().getGame().getDay());
                 mav.addObject("activePlayer", infoWrapper.getUser().getName());
+                mav.addObject("activePlayerId", infoWrapper.getUser().getGameId());
                 mav.addObject("upgradedMap", info.isUpgradedMapAvailable());
                 mav.addObject("chaos", info.getCity().isChaosMode());
                 mav.addObject("stale", infoWrapper.isStale());

@@ -216,6 +216,12 @@ h2{
     background:url(../images/anim_icon_mail.gif) no-repeat center left;
     padding-left:20px
 }
+a.leaderboard_link {
+    margin-left: 12px;
+    margin-right: 12px;
+    text-decoration: none;
+    cursor: pointer;
+}
 #townnav{
     text-align:center
 }
@@ -956,7 +962,7 @@ li.distinction {
     margin-left: 1px;
     margin-right: 1px;
 }
-li.distinction div, li.distinction.img {
+li.distinction div, li.distinction img {
     margin-left: 8px;
     margin-top: -2px;
 }
@@ -1201,4 +1207,20 @@ html ul.overview_tabs li.active, html ul.overview_tabs li.active a:hover, html u
     height: 100%;
     background: #000;
     opacity: .5;
+}
+
+.close {
+    overflow: hidden;
+    text-indent: -9999px;
+    background: url('../images/close.png') #584323 no-repeat;
+    background-position: 6px;
+    border: 2px solid #FFFFCC;
+    color: #FFFFCC;
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    box-shadow: 0 0 3px #000;
 }

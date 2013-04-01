@@ -7,14 +7,11 @@
         <title>From Dusk Till Dawn - Map</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-        <script type="text/javascript" src="scripts/jquery-1.6.4.min.js"></script>
-        <script type="text/javascript" src="scripts/jquery-ui-1.8.16.min.js"></script>
-        <script type="text/javascript" src="scripts/jquery.cookie.js"></script>
-        <script type="text/javascript" src="scripts/duskdawn.js?version=11"></script>
-        <script type="text/javascript" src="scripts/ruins.js?version=1"></script>
+        <style type="text/css">${canvasWidth}</style>
 
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-        <link rel="stylesheet" type="text/css" href="styles/map-viewer.css?version=5"/>
+        <link rel="stylesheet" type="text/css" href="styles/map-viewer.css?version=6"/>
+        <link rel="stylesheet" type="text/css" href="styles/leaderboard.css"/>
         <link rel="stylesheet" type="text/css" href="styles/ruins.css"/>
         <link rel="stylesheet" type="text/css" href="styles/building-image.css"/>
         <link rel="stylesheet" type="text/css" href="styles/job-image.css?version=3"/>
@@ -22,7 +19,13 @@
         <link rel="stylesheet" type="text/css" href="styles/distinction-image.css?version=2"/>
         <link rel="stylesheet" type="text/css" href="styles/tag-image.css"/>
         <link rel="stylesheet" type="text/css" href="styles/ui.css"/>
-        <style type="text/css">${canvasWidth}</style>
+
+        <script type="text/javascript" src="scripts/jquery-1.6.4.min.js"></script>
+        <script type="text/javascript" src="scripts/jquery-ui-1.8.16.min.js"></script>
+        <script type="text/javascript" src="scripts/jquery.cookie.js"></script>
+        <script type="text/javascript" src="scripts/duskdawn.js?version=12"></script>
+        <script type="text/javascript" src="scripts/ruins.js?version=1"></script>
+        <script type="text/javascript" src="scripts/leaderboard.js"></script>
 	</head>
 	<body>
 
@@ -36,6 +39,7 @@
                     <img id="mail_expired" width="21" height="15"/>
                 </a>
             </span>
+            <a id="leaderboard_link" class="leaderboard_link">Leaderboard</a>
         </h1>
 
         <div class="box">
@@ -218,7 +222,31 @@
          <a class='close' href='#'>Close</a>
      </div>
 
-        <script type="text/javascript">
+     <div id="leaderboard" style="display: none;">
+     <%--<div id="leaderboard">--%>
+         <div id="leaderboard_header">
+             <h1>Leaderboard</h1>
+         </div>
+         <div id="distinction_panel"></div>
+         <div id="top_100">
+             <hr/>
+             <div class="wrapper">
+                 <div class="element text"><h2 id="top-100-for-distinction"></h2></div>
+                 <div class="element" id="selected-distinction-image"></div>
+             </div>
+             <div class="column_wrapper">
+                 <div id="top_100_col_0" class="column"></div>
+                 <div id="top_100_col_1" class="column"></div>
+                 <div id="top_100_col_2" class="column"></div>
+                 <div id="top_100_col_3" class="column"></div>
+                 <div id="top_100_col_4" class="column"></div>
+             </div>
+         </div>
+         <a class='close' href='#'>Close</a>
+     </div>
+
+
+     <script type="text/javascript">
 
 var iconUrl = "${iconUrl}";
 var zoneMap = ${mapZones}
@@ -243,6 +271,7 @@ var key = "${key}";
 var today = ${today};
 var cityId = ${cityId};
 var activePlayer = "${activePlayer}";
+var activePlayerId = "${activePlayerId}";
 var upgradedMap = ${upgradedMap};
 var chaos = ${chaos};
 var gameClock = "${gameClock}";

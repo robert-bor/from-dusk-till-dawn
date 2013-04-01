@@ -19,7 +19,7 @@ public class LeaderboardService {
     private DistinctionDao distinctionDao;
 
     public List<UniqueDistinction> findUniqueDistinctions() {
-        return this.uniqueDistinctionDao.findUniqueDistinctions();
+        return this.uniqueDistinctionDao.findUniqueDistinctionsOrdered();
     }
 
     public List<UserWithDistinction> findTopUsersWithDistinction(Integer uniqueDistinctionId) {

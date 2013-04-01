@@ -1890,9 +1890,14 @@ $(document).ready(function () {
     });
 
     $(document).keydown(function (event) {
-        if ($('#ruins_map').is(':hidden')) {
+        if ($('#ruins_map').is(':hidden') &&
+            $('#leaderboard').is(':hidden')) {
             return changeZoneSelection(event);
         }
+    });
+
+    $('#leaderboard_link').click(function () {
+        $leaderboard.openLeaderboard();
     });
 
     $('#update_button button').click(function () {
