@@ -39,7 +39,7 @@
 }
 
 #top_100 .wrapper {
-    width: 320px;
+    width: 325px;
     margin: 0 auto;
 }
 
@@ -49,7 +49,7 @@
 }
 
 #top_100 .element.text {
-    width: 300px;
+    width: 305px;
 }
 
 #top_100 .column_wrapper {
@@ -76,7 +76,7 @@
 #top_100 .name {
     float: left;
     width: 100px;
-    height: 15px;
+    height: 16px;
 }
 
 #top_100 .amount{
@@ -96,6 +96,10 @@
 #selected-distinction-image {
     margin-left: 4px;
     margin-top: -7px;
+}
+
+#distinction_panel li.distinction:hover {
+    cursor: pointer;
 }
 
 #distinction_panel li.distinction div, #distinction_panel li.distinction img {

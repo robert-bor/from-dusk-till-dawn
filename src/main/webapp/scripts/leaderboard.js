@@ -84,17 +84,20 @@ $leaderboard.createLeaderboard = function() {
 };
 
 $leaderboard.getTop100ForDistinction = function(selectedDistinction) {
+
     var distinction = $leaderboard.uniqueDistinctionsById[selectedDistinction.data('distinction')]
     $('#top-100-for-distinction').html('Top 100 for '+distinction.name);
+    // Empty the current columns
+    var column = 0;
+    for (; column < 5; column++) {
+        $('#top_100_col_'+column).html("");
+    }
+    column = 0;
+
     $('#selected-distinction-image').html($leaderboard.generateDistinctionImage(distinction));
     $leaderboard.readTop100(distinction.id);
 
     var output = "";
-    var column = 0;
-    for (; column < 5; column++) {
-        $('#top_100_col_'+column).html(output);
-    }
-    column = 0;
     var count = 0;
     var previousAmount = -1;
     var rank = 0;
