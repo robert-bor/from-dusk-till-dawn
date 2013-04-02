@@ -206,16 +206,6 @@ h2{
     font-weight:bold;
     line-height:16px
 }
-#new_messages{
-    text-align:center
-}
-#new_messages .content{
-    display:inline;
-    font-weight:bold;
-    line-height:16px;
-    background:url(../images/anim_icon_mail.gif) no-repeat center left;
-    padding-left:20px
-}
 a.leaderboard_link {
     margin-left: 12px;
     margin-right: 12px;

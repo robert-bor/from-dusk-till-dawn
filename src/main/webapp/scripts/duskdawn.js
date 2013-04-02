@@ -1259,9 +1259,6 @@ function toggleZombieNumberMarkers() {
 function toggleVisitedMarkers() {
     toggleMarkers($('input[name=toggle_visited]').is(':checked'), 'img.visited_marker');
 }
-function toggleMailIcon() {
-    toggleMarkers($('input[name=toggle_mail_link]').is(':checked'), '#oval_office_mail');
-}
 function toggleTagMarkers() {
     toggleMarkers($('input[name=toggle_tags]').is(':checked'), 'div.tag_marker');
 }
@@ -1372,7 +1369,6 @@ function repaintMarkers() {
     toggleBlueprintAvailableMarkers();
     toggleZombieNumberMarkers();
     toggleVisitedMarkers();
-    toggleMailIcon();
     toggleTagMarkers();
     toggleConstructionView();
 }
@@ -1703,7 +1699,6 @@ function readFromCookies() {
     readCookieCheckbox('toggle_zombie_numbers', false);
     readCookieCheckbox('toggle_visited', false);
     readCookieCheckbox('toggle_zone_hover', true);
-    readCookieCheckbox('toggle_mail_link', true);
     readCookieDropdown('show_range_dropdown', 'none');
 }
 function storeCookie(cookieName, value) {
@@ -1779,45 +1774,6 @@ function toggleShowingBuildingSpecifics() {
     } else {
         $('.construction-info-group').hide();
     }
-}
-function checkMail() {
-    $.ajax({
-        type: "GET",
-        url: "/mail",
-        data: "key="+key,
-        async: true,
-        success: function (json) {
-            mailAlert = JSON.parse(json);
-            $("#oval_office_reactivate").hide();
-            $("#oval_office_link").show();
-            if (mailAlert.messages > 0 || mailAlert.invitations > 0) {
-                $("#mail_icon").attr("src", "images/mail_alert.gif");
-                $("#oval_office_link").attr("title", "You have "+mailAlert.messages+" messages and "+mailAlert.invitations+" invitations waiting for you in Oval Office. Click here to go to Oval Office");
-            } else {
-                $("#mail_icon").attr("src", "images/mail.png");
-                $("#oval_office_link").attr("title", "Go to Oval Office to check your mail");
-            }
-            $(function(){
-                var count = 3500; // Valid for 60 minutes, take a bit off
-                countdown = setInterval(function() {
-                    if (count == 0) {
-                        $("#oval_office_link").hide();
-                        $("#oval_office_reactivate").show();
-                        $("#mail_expired").attr("src", "images/mail-expired.png");
-                        $("#oval_office_reactivate").attr("title", "Your Oval Office key has expired. Click to reactivate");
-                    }
-                    count--;
-                }, 1000);
-            });
-            $("#oval_office_link").attr("href", mailAlert.oourl);
-        },
-        error: function (xhr, error) {
-            $("#oval_office_link").hide();
-            $("#oval_office_reactivate").show();
-            $("#mail_expired").attr("src", "images/mail-error.png");
-            $("#oval_office_reactivate").attr("title", "Error: "+JSON.parse(xhr.responseText).errorMessage+". Click to try again.");
-        }
-    });
 }
 
 $(document).ready(function () {
@@ -1960,11 +1916,6 @@ $(document).ready(function () {
         storeCookieCheckbox($(this).attr('id'));
     });
 
-    $('#toggle_mail_link').click(function () {
-        storeCookieCheckbox($(this).attr('id'));
-        toggleMailIcon();
-    });
-
     $('#toggle_tags').click(function () {
         storeCookieCheckbox($(this).attr('id'));
         toggleTagMarkers();
@@ -1998,11 +1949,6 @@ $(document).ready(function () {
         toggleConstructionView();
     });
 
-    $("#oval_office_reactivate").click(function() {
-        checkMail();
-        return false;
-    });
-
     // Default page load actions
     highlightOverviewTab($("li#tab_link_town"));
     highlightTownTab($("li#tab_link_bank"));
@@ -2016,8 +1962,4 @@ $(document).ready(function () {
     readFromCookies();
     repaintMarkers();
     showRange();
-    checkMail();
-    // "2012-02-18T18:10:05";
-//    var d = Date.parse(gameClock);
-//    alert(new Date(d));
 });

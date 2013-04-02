@@ -10,7 +10,7 @@
         <style type="text/css">${canvasWidth}</style>
 
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-        <link rel="stylesheet" type="text/css" href="styles/map-viewer.css?version=6"/>
+        <link rel="stylesheet" type="text/css" href="styles/map-viewer.css?version=7"/>
         <link rel="stylesheet" type="text/css" href="styles/leaderboard.css"/>
         <link rel="stylesheet" type="text/css" href="styles/ruins.css"/>
         <link rel="stylesheet" type="text/css" href="styles/building-image.css"/>
@@ -23,22 +23,14 @@
         <script type="text/javascript" src="scripts/jquery-1.6.4.min.js"></script>
         <script type="text/javascript" src="scripts/jquery-ui-1.8.16.min.js"></script>
         <script type="text/javascript" src="scripts/jquery.cookie.js"></script>
-        <script type="text/javascript" src="scripts/duskdawn.js?version=12"></script>
+        <script type="text/javascript" src="scripts/duskdawn.js?version=13"></script>
         <script type="text/javascript" src="scripts/ruins.js?version=1"></script>
         <script type="text/javascript" src="scripts/leaderboard.js"></script>
 	</head>
 	<body>
 
      <div class="app">
-        <h1><a href="http://d2n.duskdawn.net/">From Dusk Till Dawn</a> > ${cityName} > Day ${today} | ${activePlayer}
-            <span id="oval_office_mail">
-                <a id="oval_office_link" target="_blank">
-                    <img id="mail_icon" width="21" height="15"/>
-                </a>
-                <a id="oval_office_reactivate" style="display: none;">
-                    <img id="mail_expired" width="21" height="15"/>
-                </a>
-            </span>
+        <h1><a href="http://d2n.duskdawn.net/">From Dusk Till Dawn</a> > ${cityName} > Day ${today} | ${activePlayer} |
             <a id="leaderboard_link" class="leaderboard_link">Leaderboard</a>
         </h1>
 
@@ -161,7 +153,6 @@
                             <p><input type="checkbox" id="toggle_zombie_numbers" name="toggle_zombie_numbers"/>&nbsp;<img src="images/h_zombie.gif"/>&nbsp;Show zombie numbers</p>
                             <p><input type="checkbox" id="toggle_visited" name="toggle_visited" checked/>&nbsp;<img src="images/visited.png"/>&nbsp;Show zone visitation</p>
                             <p><input type="checkbox" id="toggle_zone_hover" name="toggle_zone_hover" checked/>&nbsp;<img src="images/mouse_pointer.png"/>&nbsp;Show zone hover</p>
-                            <p><input type="checkbox" id="toggle_mail_link" name="toggle_mail_link" checked/>&nbsp;<img width="21" height="15" src="images/mail-small.png"/>&nbsp;Show Oval Office link</p>
                             <p><input type="checkbox" id="toggle_tags" name="toggle_tags"/>&nbsp;<img src="images/h_bag.gif"/>&nbsp;Show tag markers</p>
                         </div>
                     </div>
@@ -283,7 +274,6 @@ var showConstructionInfo = true;
 var selectedSearchItems = {};
 var constructionLines = [];
 var outsideBuildings = [];
-var mailAlert;
 
         </script>
 
