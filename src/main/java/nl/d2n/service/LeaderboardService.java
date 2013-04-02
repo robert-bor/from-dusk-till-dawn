@@ -1,7 +1,6 @@
 package nl.d2n.service;
 
 import nl.d2n.dao.DistinctionDao;
-import nl.d2n.dao.UniqueDistinctionDao;
 import nl.d2n.dao.result.UserWithDistinction;
 import nl.d2n.model.UniqueDistinction;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,13 +12,13 @@ import java.util.List;
 public class LeaderboardService {
 
     @Autowired
-    private UniqueDistinctionDao uniqueDistinctionDao;
-
-    @Autowired
     private DistinctionDao distinctionDao;
 
+    @Autowired
+    private UniqueDistinctionManager uniqueDistinctionManager;
+
     public List<UniqueDistinction> findUniqueDistinctions() {
-        return this.uniqueDistinctionDao.findUniqueDistinctionsOrdered();
+        return this.uniqueDistinctionManager.findUniqueObjectsOrdered();
     }
 
     public List<UserWithDistinction> findTopUsersWithDistinction(Integer uniqueDistinctionId) {

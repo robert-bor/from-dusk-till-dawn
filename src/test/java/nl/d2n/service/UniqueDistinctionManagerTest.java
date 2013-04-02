@@ -31,6 +31,17 @@ public class UniqueDistinctionManagerTest extends SpringContextTestCase {
     }
 
     @Test
+    public void checkOrder() {
+        uniqueDistinctionDao.save(new UniqueDistinction("Butcher", false, "r_butch", false));
+        uniqueDistinctionDao.save(new UniqueDistinction("Camper", false, "r_camper", false));
+        uniqueDistinctionDao.save(new UniqueDistinction("Luck", true, "r_luck", false));
+        List<UniqueDistinction> distinctions = manager.findUniqueObjectsOrdered();
+        assertEquals("Luck", distinctions.get(0).getName());
+        assertEquals("Butcher", distinctions.get(1).getName());
+        assertEquals("Camper", distinctions.get(2).getName());
+    }
+
+    @Test
     public void mergeWithList() {
         List<Distinction> distinctions = new ArrayList<Distinction>();
         distinctions.add(new Distinction(null, "Butcher", false, 42, "r_botch", false, null, null));

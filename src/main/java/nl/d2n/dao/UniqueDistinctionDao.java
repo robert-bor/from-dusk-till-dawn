@@ -39,12 +39,6 @@ public class UniqueDistinctionDao {
                 .getResultList();
     }
 
-    public List<UniqueDistinction> findUniqueDistinctionsOrdered() {
-        return (List<UniqueDistinction>)entityManager
-                .createQuery("from UniqueDistinction order by rare desc, name")
-                .getResultList();
-    }
-
     @Transactional
     public void deleteUniqueDistinctions() {
         entityManager

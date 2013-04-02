@@ -6,15 +6,28 @@ import nl.d2n.model.UniqueDistinction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 @Service
 public class UniqueDistinctionManager extends UniqueManagerWithImages<String, UniqueDistinction, Distinction> {
 
     @Autowired
     private UniqueDistinctionDao uniqueDistinctionDao;
+
+    public List<UniqueDistinction> findUniqueObjectsOrdered() {
+        List<UniqueDistinction> orderedDistinctions = new ArrayList<UniqueDistinction>(uniqueObjects.values());
+        Collections.sort(orderedDistinctions, new DistinctionComparator());
+        return orderedDistinctions;
+    }
+
+    public class DistinctionComparator implements Comparator<UniqueDistinction> {
+        public int compare(UniqueDistinction thisDistinction, UniqueDistinction otherDistinction) {
+            if (thisDistinction.isRare() != otherDistinction.isRare()) {
+                return -((Boolean)thisDistinction.isRare()).compareTo(otherDistinction.isRare());
+            }
+            return thisDistinction.getName().compareTo(otherDistinction.getName());
+        }
+    }
 
     @Override
     protected List<UniqueDistinction> findUniqueObjects() {
