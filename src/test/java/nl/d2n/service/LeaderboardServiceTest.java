@@ -12,9 +12,13 @@ public class LeaderboardServiceTest extends SpringContextTestCase {
     @Autowired
     private LeaderboardService leaderboardService;
 
+    @Autowired
+    private UniqueDistinctionManager manager;
+
     @Test
     public void getUniqueDistinctions() {
         uniqueDistinctionDao.save(new UniqueDistinction("Butcher", false, "r_butch", false));
+        manager.refresh();
         assertEquals(1, leaderboardService.findUniqueDistinctions().size());
     }
 

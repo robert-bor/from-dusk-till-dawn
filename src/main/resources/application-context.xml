@@ -24,9 +24,6 @@
     <bean id="siteKey" class="nl.d2n.reader.sitekey.D2NSiteKey">
         <property name="key" value="${sitekey.key}"/>
     </bean>
-    <bean id="ovalOfficeSiteKey" class="nl.d2n.reader.sitekey.OvalOfficeSiteKey">
-        <property name="key" value="${sitekey.oo}"/>
-    </bean>
     <bean id="siteKeyChecker" class="nl.d2n.model.SiteKeyChecker">
         <constructor-arg>
             <util:properties location="classpath:sitekey.properties"/>
