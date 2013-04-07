@@ -135,6 +135,16 @@ create table unique_distinctions (
   primary key (id)
 ) ENGINE=INNODB DEFAULT CHARSET=utf8;
 
+create table unique_titles (
+  id int not null auto_increment,
+  name varchar(40) not null,
+  unique_distinction_id int not null,
+  treshold double,
+  twinoid_points int,
+  primary key (id)
+) ENGINE=INNODB DEFAULT CHARSET=utf8;
+alter table unique_titles add constraint fk_unique_titles_unique_distinctions_unique_distinction_id foreign key (unique_distinction_id) references unique_distinctions(id);
+
 create table distinctions (
   id int not null auto_increment,
   user_id int not null,

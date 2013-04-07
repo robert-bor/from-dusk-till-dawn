@@ -36,6 +36,9 @@ public abstract class SpringContextTestCase {
     protected UniqueDistinctionDao uniqueDistinctionDao;
 
     @Resource
+    protected UniqueTitleDao uniqueTitleDao;
+
+    @Resource
     protected DistinctionDao distinctionDao;
 
     private EntityManager entityManager;
@@ -63,6 +66,7 @@ public abstract class SpringContextTestCase {
         uniqueOutsideBuildingDao.deleteUniqueOutsideBuildings();
         uniqueInsideBuildingDao.deleteUniqueInsideBuildings();
         uniqueDistinctionDao.deleteUniqueDistinctions();
+        uniqueTitleDao.deleteUniqueTitles();
         distinctionDao.deleteDistinctions();
         userDao.deleteUsers();
     }
