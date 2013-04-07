@@ -137,7 +137,7 @@ create table unique_distinctions (
 
 create table unique_titles (
   id int not null auto_increment,
-  name varchar(40) not null,
+  name varchar(80) not null,
   unique_distinction_id int not null,
   treshold double,
   twinoid_points int,

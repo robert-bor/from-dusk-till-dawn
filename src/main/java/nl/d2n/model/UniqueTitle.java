@@ -37,4 +37,22 @@ public class UniqueTitle {
     public void setUniqueDistinctionId(Integer uniqueDistinctionId) { this.uniqueDistinctionId = uniqueDistinctionId; }
     public double getTwinoidPoints() { return twinoidPoints; }
     public void setTwinoidPoints(double twinoidPoints) { this.twinoidPoints = twinoidPoints; }
+
+    public boolean mustBeOverwrittenBy(Title title) {
+        if (!getName().equals(title.getName())) {
+            return true;
+        }
+        if (!getUniqueDistinctionId().equals(title.getUniqueDistinctionId())) {
+            return true;
+        }
+        return false;
+    }
+
+    static public UniqueTitle createFromTitle(Title title) {
+        UniqueTitle uniqueTitle = new UniqueTitle();
+        uniqueTitle.setName(title.getName());
+        uniqueTitle.setUniqueDistinctionId(title.getUniqueDistinctionId());
+        return uniqueTitle;
+    }
+
 }

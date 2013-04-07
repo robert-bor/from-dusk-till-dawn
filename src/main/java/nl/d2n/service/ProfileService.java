@@ -26,6 +26,9 @@ public class ProfileService {
     @Autowired
     private UniqueDistinctionManager uniqueDistinctionManager;
 
+    @Autowired
+    private UniqueTitleManager uniqueTitleManager;
+
     public Map<Integer, List<Distinction>> getDistinctions(Integer cityId, List<Citizen> citizens) {
         Map<Integer, List<Distinction>> distinctionsGroupedByCitizen = new TreeMap<Integer, List<Distinction>>();
         Map<Integer, UniqueDistinction> uniqueDistinctions = uniqueDistinctionManager.getMapWithIntegerKeys();
@@ -71,6 +74,7 @@ public class ProfileService {
             throw new ApplicationException(D2NErrorCode.NOT_IN_GAME);
         }
         uniqueDistinctionManager.checkForExistence(profile.getDistinctions());
+        uniqueTitleManager.checkForExistence(uniqueDistinctionManager.deriveTitlesFromProfile(profile.getDistinctions()));
 
         // Load the distinctions of the current user
         List<Distinction> distinctions = distinctionDao.findDistinctionsOfUser(user.getName());

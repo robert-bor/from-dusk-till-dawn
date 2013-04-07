@@ -12,5 +12,9 @@ public class Title {
     @XmlAttribute(name = "name")
     private String name;
 
+    private Integer uniqueDistinctionId;
+
     public String getName() { return this.name; }
+    public Integer getUniqueDistinctionId() { return uniqueDistinctionId; }
+    public void setUniqueDistinctionId(Integer uniqueDistinctionId) { this.uniqueDistinctionId = uniqueDistinctionId; }
 }

@@ -2,6 +2,7 @@ package nl.d2n.service;
 
 import nl.d2n.dao.UniqueDistinctionDao;
 import nl.d2n.model.Distinction;
+import nl.d2n.model.Title;
 import nl.d2n.model.UniqueDistinction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -85,4 +86,18 @@ public class UniqueDistinctionManager extends UniqueManagerWithImages<String, Un
         }
         return distinctions;
     }
+
+    public List<Title> deriveTitlesFromProfile(List<Distinction> distinctions) {
+        List<Title> titles = new ArrayList<Title>();
+        for (Distinction distinction : distinctions) {
+            Title title = distinction.getTitle();
+            if (title == null) {
+                continue;
+            }
+            title.setUniqueDistinctionId(get(distinction.getName()).getId());
+            titles.add(title);
+        }
+        return titles;
+    }
+
 }

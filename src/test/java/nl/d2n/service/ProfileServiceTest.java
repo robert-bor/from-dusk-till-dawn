@@ -14,6 +14,7 @@ import org.springframework.cache.ehcache.EhCacheCacheManager;
 import java.util.ArrayList;
 import java.util.List;
 
+import static junit.framework.Assert.assertNotNull;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
@@ -27,6 +28,9 @@ public class ProfileServiceTest extends SpringContextTestCase {
 
     @Autowired
     private EhCacheCacheManager cacheManager;
+
+    @Autowired
+    private UniqueTitleManager uniqueTitleManager;
 
     @Before
     public void stubSoulReader() {
@@ -51,6 +55,9 @@ public class ProfileServiceTest extends SpringContextTestCase {
         profileService.updateProfile(user);
         List<Distinction> distinctions = profileService.getDistinctions(1984, UserCitizenConverter.convertUserToCitizen(user)).get(11);
         assertEquals(45, distinctions.size());
+        assertEquals(18, uniqueTitleManager.findUniqueObjects().size());
+        UniqueTitle title = uniqueTitleManager.findUniqueObjects().get(0);
+        assertNotNull(title.getUniqueDistinctionId());
     }
 
     @Test
