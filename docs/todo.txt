@@ -79,15 +79,7 @@ https://addons.mozilla.org/en-US/firefox /addon/die2nite-agent/
 
 Run this on the production database:
 
-create table unique_titles (
-  id int not null auto_increment,
-  name varchar(80) not null,
-  unique_distinction_id int not null,
-  treshold double,
-  twinoid_points int,
-  primary key (id)
-) ENGINE=INNODB DEFAULT CHARSET=utf8;
-alter table unique_titles add constraint fk_unique_titles_unique_distinctions_unique_distinction_id foreign key (unique_distinction_id) references unique_distinctions(id);
-
-===
-
+alter table unique_titles modify column treshold int default -1;
+alter table unique_titles modify column twinoid_points int default -1;
+update unique_titles set twinoid_points=-1 where twinoid_points=0;
+update unique_titles set treshold=-1 where treshold=0;
