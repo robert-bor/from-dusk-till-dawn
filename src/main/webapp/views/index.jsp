@@ -163,7 +163,7 @@
         </div>
 
         <div id="footer">
-            <p align="center"><i>This site is dedicated to <b>Rulesy</b>, who showed the way. Created by <a href="mailto:berzerg.d2n@gmail.com"><b>BerZerg</b></a></i> with help from the <span title="especially Sinsniper!">community</span> and input from <a href='http://die2nitewiki.com/wiki/Main_Page'>die2nitewiki.com</a>.</p>
+            <p align="center"><i>This site is dedicated to <b>Rulesy</b>, who showed the way. Created by <a href="mailto:berzerg.d2n@gmail.com"><b>BerZerg</b></a></i> with help from the <span title="especially Sinsniper!">community</span> and input from <a href='http://d2nwiki.com'>d2nwiki.com</a>.</p>
             <p align="center">Check this <a href="http://annetteannette.net/die2nite/almanac/dusktilldawn.html">guide</a>. Most images and data used on this website are © <a href="http://www.motion-twin.com/english">Motion-Twin</a>. This website is NOT affiliated with <a href="http://www.die2nite.com/">Die2Nite</a>.</p>
         </div>
     </div>
