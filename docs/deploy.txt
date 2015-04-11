@@ -66,7 +66,7 @@ TOMCAT DEPLOMENT INSTRUCTIONS
    Replace the '********' field with the site key that D2N handed out. Note that this is a secret key and
    may not be handed out to others.
 
-5. Create the WAR file from the project root folder
+5. Create the WAR file from the project root folder (use Java 6 and make sure the sources have been compile, ie no clean without compile!)
 
    mvn war:war
 

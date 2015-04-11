@@ -17,19 +17,19 @@ public class Estimation {
 
     @Expose
     @XmlAttribute(name = "max")
-    private int maximum;
+    private double maximum;
 
     @Expose
     @XmlAttribute(name = "min")
-    private int minimum;
+    private double minimum;
 
     @Expose
     @XmlAttribute
     private boolean maxed;
 
     public int getDay() { return this.day; }
-    public int getMaximum() { return this.maximum; }
-    public int getMinimum() { return this.minimum; }
+    public double getMaximum() { return this.maximum; }
+    public double getMinimum() { return this.minimum; }
     public boolean isMaxed() { return this.maxed; }
 
 }
